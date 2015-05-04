@@ -4,12 +4,12 @@ layout: default
 
 {% include jumbotron.html %}
 
-<div class="container">
-  <div class="row">
-    {% include eventOverview.html %}
-  </div>
+<div class="row">
+  {% include eventOverview.html %}
+</div>
 
-  <div class="row">
+<div class="row">
+  <div class="container">
     <h3>Agenda</h3>
     <div class="col-md-4">
     {% include agenda/day1.html %}
@@ -21,8 +21,12 @@ layout: default
     {% include agenda/day3.html %}
     </div>
   </div>
+</div>
 
-  <div class="row">
-    {% include contestOverview.html %}
-  </div>
+<div class="row">
+  {% include contestOverview.html %}
+</div>
+
+<div class="row" id="disqus">
+  {% include disqus.html %}
 </div>
