@@ -1,8 +1,25 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+
 @charset "utf-8";
 
 .jumbotron {
+  background: url('../hero.jpg') no-repeat top left;
+  color: #fff;
   font-family: "larabiefont", sans-serif;
+  font-size: 1.5em;
+  margin-bottom: 0;
+  padding-bottom: 0;
+
+  img {
+    width: 150px;
+  }
+  
+  a {
+    color: deeppink;
+  }
+  a.btn {
+    color: #333;
+  }
 }
