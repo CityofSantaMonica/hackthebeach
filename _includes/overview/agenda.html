@@ -1,18 +1,20 @@
 <h3>What, and When?</h3>
-{% for day in site.data.agenda %}
-<div class="col-md-4">
-  <table class="table table-striped">
-    <caption>{{ day.title }}: {{ day.date | date: "%A, %B %-d" }}</caption>
-    <tbody>
-      {% for item in day.items %}
-      <tr>
-        <td>{{ item.start }} {% if item.end %}to {{ item.end }}{% endif %}</td>
-        <td>
-          <p>{{ item.what }}</p>
-        </td>
-      </tr>
-      {% endfor %}
-    </tbody>
-  </table>
+<div class="row">
+  {% for day in site.data.agenda %}
+  <div class="col-md-4">
+    <table class="table table-striped">
+      <caption>{{ day.title }}: {{ day.date | date: "%A, %B %-d" }}</caption>
+      <tbody>
+        {% for item in day.items %}
+        <tr>
+          <td>{{ item.start }} {% if item.end %}to {{ item.end }}{% endif %}</td>
+          <td>
+            <p>{{ item.what }}</p>
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% endfor %}
 </div>
-{% endfor %}
