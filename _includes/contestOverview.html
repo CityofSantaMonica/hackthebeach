@@ -4,12 +4,9 @@
   <p class="lead">Build a service or application to address a mobility-related challenge in Santa Monica.</p>
   <p>Some ideas include:</p>
   <ul>
-    <li>A trip planner for bus riders using BBB and Metro schedule and real time data.</li>
-    <li>A parking spot locator to identify available parking.</li>
-    <li>A bike and/or walking map to move around Santa Monica.</li>
-    <li>A comprehensive multi-modal transportation app using City and private data sources.</li>
-    <li>A platform to update and maintain the City's outdated street sign inventory.</li>
-    <li>A platform to update and maintain the City’s bicycle parking locations.</li>
+    {% for idea in site.data.projectIdeas %}
+    <li>{{ idea.description }}</li>
+    {% endfor %}
   </ul>
 
   <h3>Submission Guidelines</h3>
