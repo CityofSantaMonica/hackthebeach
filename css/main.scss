@@ -1,6 +1,5 @@
 ---
 ---
-
 @charset "utf-8";
 
 $hackFont: "larabiefont", sans-serif;
@@ -9,6 +8,35 @@ $triangleSize: 12px;
 
 body {
 /*  font-size: 16px;*/
+}
+
+.jumbotron {
+  background: url('../hero.jpg') no-repeat top left;
+  color: #fff;
+  font-family: $hackFont;
+  font-size: 1.5em;
+  margin-bottom: 0;
+  padding-top: 100px;
+  padding-bottom: 30px;
+
+  img.citylogo {
+    width: 150px;
+  }
+
+
+
+  a {
+    color: $highlightColor;
+  }
+  a.btn {
+    color: #fff;
+    background-color: $highlightColor;
+    font-family: sans-serif;
+  }
+
+  h1, h2, li {
+    font-weight: bold;
+  }
 }
 
 h2.section {
@@ -39,33 +67,6 @@ h2.section {
 
   &:first-of-type {
     margin-top: 0;
-  }
-}
-
-.jumbotron {
-  background: url('../hero.jpg') no-repeat top left;
-  color: #fff;
-  font-family: $hackFont;
-  font-size: 1.5em;
-  margin-bottom: 0;
-  padding-top: 100px;
-  padding-bottom: 30px;
-
-  img {
-    width: 150px;
-  }
-  
-  a {
-    color: $highlightColor;
-  }
-  a.btn {
-    color: #fff;
-    background-color: $highlightColor;
-    font-family: sans-serif;
-  }
-  
-  h1, h2, li {
-    font-weight: bold;
   }
 }
 

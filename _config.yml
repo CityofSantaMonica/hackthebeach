@@ -1,5 +1,6 @@
 title: Hack the Beach
-baseurl: "http://thekaveman.github.io/hackthebeach"
+url: "http://thekaveman.github.io/hackthebeach"
+baseurl: ""
 
 email: data@smgov.net
 github_username: CityofSantaMonica
