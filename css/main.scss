@@ -5,33 +5,38 @@
 $hackFont: "larabiefont", sans-serif;
 $highlightColor: orangered;
 $triangleSize: 12px;
-
-body {
-/*  font-size: 16px;*/
-}
+$white: #fff;
+$gray: #eee;
+$darkgray: #333;
 
 .jumbotron {
   background: url('../assets/hero.jpg') no-repeat top left;
-  color: #fff;
+  color: $white;
   font-family: $hackFont;
   font-size: 1.5em;
   margin-bottom: 0;
-  padding-top: 100px;
   padding-bottom: 30px;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 100px;
+  }
 
   img.citylogo {
     width: 150px;
   }
 
-
-
   a {
     color: $highlightColor;
   }
+
   a.btn {
-    color: #fff;
+    color: $white;
     background-color: $highlightColor;
     font-family: sans-serif;
+    &:hover {
+      background-color: $gray;
+      color: $darkgray;
+    }
   }
 
   h1, h2, li {
@@ -71,5 +76,5 @@ h2.section {
 }
 
 .row.contest {
-  background-color: #eee;
+  background-color: $gray;
 }
