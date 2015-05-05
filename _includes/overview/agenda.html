@@ -2,7 +2,7 @@
 {% for day in site.data.agenda %}
 <div class="col-md-4">
   <table class="table table-striped">
-    <caption>{{ day.title }}: {{ day.date | date: "%A, %b %-d" }}</caption>
+    <caption>{{ day.title }}: {{ day.date | date: "%A, %B %-d" }}</caption>
     <tbody>
       {% for item in day.items %}
       <tr>
