@@ -1,9 +1,6 @@
-title: Hack the Beach
+title: Hack the Beach - City of Santa Monica
 url: "http://thekaveman.github.io/hackthebeach"
 baseurl: ""
-
-email: data@smgov.net
-github_username: CityofSantaMonica
 
 collections:
   - agendas
