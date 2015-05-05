@@ -23,11 +23,22 @@ $screen-md: "screen and (min-width: 768px)";
   }
 
   img.citylogo {
-    width: 150px;
+    width: 96px;
+    @media #{$screen-md} {
+      width: 120px;
+    }
   }
 
-  a {
-    color: $highlightColor;
+  ul {
+    padding-left: 20px;
+
+    li {
+      &:before {
+        content: "> ";
+      }
+
+      list-style-type: none;
+    }
   }
 
   a.btn {
@@ -73,14 +84,6 @@ h2.section {
 
   &:first-of-type {
     margin-top: 0;
-  }
-}
-
-iframe.map {
-  width: 100%;
-
-  @media #{$screen-md} {
-    width: 750px;
   }
 }
 
