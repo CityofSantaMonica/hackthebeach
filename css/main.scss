@@ -8,6 +8,7 @@ $triangleSize: 12px;
 $white: #fff;
 $gray: #eee;
 $darkgray: #333;
+$screen-md: "screen and (min-width: 768px)";
 
 .jumbotron {
   background: url('../assets/hero.jpg') no-repeat top left;
@@ -17,7 +18,7 @@ $darkgray: #333;
   margin-bottom: 0;
   padding-bottom: 30px;
 
-  @media screen and (min-width: 768px) {
+  @media #{$screen-md} {
     padding-top: 100px;
   }
 
@@ -72,6 +73,14 @@ h2.section {
 
   &:first-of-type {
     margin-top: 0;
+  }
+}
+
+iframe.map {
+  width: 100%;
+
+  @media #{$screen-md} {
+    width: 750px;
   }
 }
 
