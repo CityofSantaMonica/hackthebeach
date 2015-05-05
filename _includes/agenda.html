@@ -1,8 +1,8 @@
 <div class="container">
   <h3>Agenda</h3>
-  {% for agenda in site.agendas %}
+  {% for day in site.agendas %}
   <div class="col-md-4">
-  {{ content }}
+  {{ day.output }}
   </div>
   {% endfor %}
 </div>
