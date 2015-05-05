@@ -6,9 +6,4 @@ email: data@smgov.net
 github_username: CityofSantaMonica
 
 collections:
-  - agendas:
-      defaults:
-        - scope:
-            path: ""
-          values:
-            layout: agenda
+  - agendas

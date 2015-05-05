@@ -2,7 +2,19 @@
   <h3>Agenda</h3>
   {% for day in site.agendas %}
   <div class="col-md-4">
-  {{ day.output }}
+    <table class="table table-striped">
+      <caption>{{ day.title }}: {{ day.date | date: "%A, %b %-d" }}</caption>
+      <tbody>
+        {% for item in day.items %}
+        <tr>
+          <td>{{ item.start }} {% if item.end %}to {{ item.end }}{% endif %}</td>
+          <td>
+            <p>{{ item.what }}</p>
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
   </div>
   {% endfor %}
 </div>
