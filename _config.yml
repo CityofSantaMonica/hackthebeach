@@ -3,3 +3,8 @@ baseurl: "http://thekaveman.github.io/hackthebeach"
 
 email: data@smgov.net
 github_username: CityofSantaMonica
+
+collections:
+  agendas:
+    defaults:
+      layout: agenda

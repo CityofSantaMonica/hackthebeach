@@ -1,0 +1,27 @@
+---
+title: Day 1
+date: 2015-06-05
+items:
+  - start: "18:00"
+    end: "19:00"
+    what: "Sign-In, mingle with other hackers"
+
+  - start: "19:00"
+    end: "19:30"
+    what: "Introductory Speeches"
+
+  - start: "19:30"
+    end: "20:15"
+    what: "SME Panel Discussion"
+
+  - start: "20:15"
+    end: "20:30"
+    what: "Break"
+
+  - start: "20:30"
+    end: "21:00"
+    what: "Break-out Activity"
+
+  - start: "21:00"
+    what: "Happy Hour??"
+---

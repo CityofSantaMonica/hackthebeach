@@ -1,0 +1,20 @@
+---
+title: Day 2
+date: 2015-06-06
+items:
+  - start: "09:00"
+    what: "Venue open, breafast served"
+
+  - start: "11:00"
+    end: "13:00"
+    what: "SME Office Hours"
+
+  - start: "13:00"
+    what: "Lunch served"
+
+  - start: "18:00"
+    what: "Dinner served"
+
+  - start: "22:00"
+    what: "Venue closes"
+---
