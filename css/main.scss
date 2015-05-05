@@ -1,25 +1,74 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
 
 @charset "utf-8";
 
+$hackFont: "larabiefont", sans-serif;
+$highlightColor: orangered;
+$triangleSize: 12px;
+
+body {
+/*  font-size: 16px;*/
+}
+
+h2.section {
+  background-color: $highlightColor;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  padding: .3em 0;
+  margin-bottom: 1.3em;
+  position: relative;
+  font-family: $hackFont;
+  font-weight: bold;
+
+  &:after {
+    top: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(255, 0, 0, 0);
+    border-top-color: $highlightColor;
+    border-width: $triangleSize;
+    left: 50%;
+    margin-left: -$triangleSize;
+  }
+
+  &:first-of-type {
+    margin-top: 0;
+  }
+}
+
 .jumbotron {
   background: url('../hero.jpg') no-repeat top left;
   color: #fff;
-  font-family: "larabiefont", sans-serif;
+  font-family: $hackFont;
   font-size: 1.5em;
   margin-bottom: 0;
-  padding-bottom: 0;
+  padding-top: 100px;
+  padding-bottom: 30px;
 
   img {
     width: 150px;
   }
   
   a {
-    color: deeppink;
+    color: $highlightColor;
   }
   a.btn {
-    color: #333;
+    color: #fff;
+    background-color: $highlightColor;
+    font-family: sans-serif;
   }
+  
+  h1, h2, li {
+    font-weight: bold;
+  }
+}
+
+.row.contest {
+  background-color: #eee;
 }
