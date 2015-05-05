@@ -4,6 +4,7 @@
 
 $hackFont: "larabiefont", sans-serif;
 $highlightColor: orangered;
+$sectionHeaderColor: #193857;
 $triangleSize: 12px;
 $white: #fff;
 $gray: #eee;
@@ -57,15 +58,15 @@ $screen-md: "screen and (min-width: 768px)";
 }
 
 h2.section {
-  background-color: $highlightColor;
-  width: 100%;
-  color: #fff;
-  text-align: center;
-  padding: .3em 0;
-  margin-bottom: 1.3em;
-  position: relative;
+  background-color: $sectionHeaderColor;
+  color: $white;
   font-family: $hackFont;
   font-weight: bold;
+  margin-bottom: 1.3em;
+  padding: .3em 0;
+  position: relative;
+  text-align: center;
+  width: 100%;
 
   &:after {
     top: 100%;
@@ -89,4 +90,12 @@ h2.section {
 
 .row.contest {
   background-color: $gray;
+}
+
+.judge {
+  min-height: 5em;
+
+  .headshot > span {
+    font-size: 4em;
+  }
 }

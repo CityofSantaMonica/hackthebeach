@@ -9,14 +9,26 @@
     {% endfor %}
   </ul>
 
-  <h3>Submission Guidelines</h3>
+  <h3>Submissions</h3>
   <ul>
     <li>All work must be done in a publicly accessible <a href="https://github.com" target="_blank">GitHub</a> repository.</li>
     <li>All submitted work should be licensed as open source as defined by the either the <a href="http://choosealicense.com/licenses/mit/" target="_blank">MIT License</a> or the GNU GPL (<a href="http://choosealicense.com/licenses/gpl-2.0/" target="_blank">v2</a> or <a href="http://choosealicense.com/licenses/gpl-3.0/" target="_blank">v3</a>)</li>
   </ul>
 
-  <h3>Judging Criteria</h3>
-  <p>Each team will have an opportunity (15 minutes) to pitch their product on the final day of the Hackathon. Once all pitches have been made, the judges will evaluate each product based on the criteria below.</p>
+  <h3>Judging</h3>
+  <div class="row">
+    {% for judge in site.data.judges %}
+    <div class="judge col-md-{{ 12 | divided_by:forloop.length }}">
+      <span class="headshot">{% if judge.headshot %}<img src="{{ judge.headshot }}" alt="{{ judge.name }} headshot" />{% else %}<span class="glyphicon glyphicon-user"></span>{% endif %}</span>
+      <span class="name">{{ judge.name }}, {{ judge.title }}</span>
+    </div>
+    {% endfor %}
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <p>Each team will have an opportunity (15 minutes) to pitch their product on the final day of the Hackathon. Once all pitches have been made, the judges will evaluate each product based on the criteria below.</p>
+    </div>
+  </div>
   <div class="row">
     {% for criteria in site.data.judgingCriteria %}
     <div class="col-md-{{ 12 | divided_by:forloop.length }}">
