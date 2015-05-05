@@ -92,10 +92,34 @@ h2.section {
   background-color: $gray;
 }
 
+ul.ideas {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    margin-bottom: 2em;
+
+    img {
+      float: left;
+      margin-right: 10px;
+    }
+  }
+
+}
+
 .judge {
   min-height: 5em;
 
   .headshot > span {
     font-size: 4em;
+  }
+}
+
+.criteria {
+  border-right: solid 1px $gray;
+
+  &:last-of-type {
+    border: none;
   }
 }
