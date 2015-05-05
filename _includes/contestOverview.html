@@ -16,23 +16,13 @@
   </ul>
 
   <h3>Judging Criteria</h3>
-  <p>Each team will have an opportunity to pitch their product on the final day of the Hackathon. Each team will be given 15 minutes to conduct their pitch. Once all pitches have been made, the judges will evaluate each product based on the criteria below.</p>
+  <p>Each team will have an opportunity (15 minutes) to pitch their product on the final day of the Hackathon. Once all pitches have been made, the judges will evaluate each product based on the criteria below.</p>
   <div class="row">
-    <div class="col-md-3">
-      <h4><span class="glyphicon glyphicon-usd"></span> Present Cost</h4>
-      <p>Consider cost to develop / deploy / host, time and personnel requirements, and other hard cost factors.</p>
+    {% for criteria in site.data.judgingCriteria %}
+    <div class="col-md-{{ 12 | divided_by:forloop.length }}">
+      <h4><span class="glyphicon glyphicon-{{ criteria.glyphicon }}"></span> {{ criteria.name }}</h4>
+      <p>{{ criteria.description }}</p>
     </div>
-    <div class="col-md-3">
-      <h4><span class="glyphicon glyphicon-thumbs-up"></span> Present Viability</h4>
-      <p>Now that you have an idea, what does a Minimum Viable Product look like? What functionality can you reasonably deliver <em>now</em> while still showing value?</p>
-    </div>
-    <div class="col-md-3">
-      <h4><span class="glyphicon glyphicon-signal"></span> Growth</h4>
-      <p>What is the long-term outlook for the product? Is it a one-off, or something that can morph and adapt over time? What are the longer-term maintenance costs?</p>
-    </div>
-    <div class="col-md-3">
-      <h4><span class="glyphicon glyphicon-star"></span> Value Proposition</h4>
-      <p>Great ideas are common, great applications are not. Demonstrate the capacity to go beyond being just a good idea to being something that people will actually use and benefit from.</p>
-    </div>
+    {% endfor %}
   </div>
 </div>
