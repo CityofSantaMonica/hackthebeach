@@ -1,6 +1,6 @@
 <h3>Judging</h3>
 <div class="row">
-  {% for judge in site.data.judges %}
+  {% for judge in site.data.judging.judges %}
   <div class="judge col-md-{{ 12 | divided_by:forloop.length }}">
     <span class="headshot">{% if judge.headshot %}<img src="{{ judge.headshot }}" alt="{{ judge.name }} headshot" />{% else %}<span class="glyphicon glyphicon-user"></span>{% endif %}</span>
     <span class="name">{{ judge.name }}, {{ judge.title }}</span>
@@ -13,7 +13,7 @@
   </div>
 </div>
 <div class="row">
-  {% for criteria in site.data.judgingCriteria %}
+  {% for criteria in site.data.judging.criteria %}
   <div class="col-md-{{ 12 | divided_by:forloop.length }}">
     <h4><span class="glyphicon glyphicon-{{ criteria.glyphicon }}"></span> {{ criteria.name }}</h4>
     <p>{{ criteria.description }}</p>
