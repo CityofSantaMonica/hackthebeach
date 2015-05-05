@@ -6,10 +6,10 @@
   description: Now that you have an idea, what does a Minimum Viable Product look like? What functionality can you reasonably deliver <em>now</em> while still showing value?
   glyphicon: thumbs-up
 
-- name: Growth
-  description: What is the long-term outlook for the product? Is it a one-off, or something that can morph and adapt over time? What are the longer-term maintenance costs?
-  glyphicon: signal
-
 - name: Value Proposition
   description: Great ideas are common, great applications are not. Demonstrate the capacity to go beyond being just a good idea to being something that people will actually use and benefit from.
   glyphicon: star
+
+- name: Growth
+  description: What is the long-term outlook for the product? Is it a one-off, or something that can morph and adapt over time? What are the longer-term maintenance costs?
+  glyphicon: signal

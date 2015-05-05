@@ -6,30 +6,17 @@
   <p>You bring your A game and build awesome mobility related applications.</p>
 
   <div class="row">
+    <div class="col-md-12">
+    {% include event/agenda.html %}
+    </div>
+  </div>
+
+  <div class="row">
     <div class="col-md-8">
-      <h3>Where?</h3>
-      <address class="sr-only">
-        Santa Monica Public Library
-        <br />
-        601 Santa Monica Blvd
-        <br />
-        Santa Monica, CA 90401
-      </address>
-      <p>The Santa Monica Public Library is served directly by <a href="http://www.bigbluebus.com" target="_blank">Big Blus Bus</a> lines 7 and 10, and stops on Big Blue Bus lines 1, 2, 3, 8, and 9 are only a short walk away.</p>
-      <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3307.0911724291336!2d-118.49480512170301!3d34.015870604448594!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdda2829bcd4b123a!2sSanta+Monica+Public+Library!5e0!3m2!1sen!2sus!4v1430844764242" height="400" width="100%" frameborder="0" style="border:0"></iframe>
+      {% include event/where.html %}
     </div>
     <div class="col-md-4">
-      <h3>Who?</h3>
-      <p>Hack the Beach is brought to you by the City of Santa Monica. Representatives will be present from the City’s:</p>
-      <ul>
-        <li>Information Systems Department</li>
-        <li>Big Blue Bus</li>
-        <li>Library</li>
-        <li>Planning and Community Development Department</li>
-        <li>Police Department</li>
-        <li>City Manager's Office</li>
-        <li>City Council</li>
-      </ul>
+      {% include event/who.html %}
     </div>
   </div>
 </div>
