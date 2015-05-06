@@ -10,11 +10,11 @@ judges:
 
 criteria:
   - name: Present Cost
-    description: Consider cost to develop / deploy / host, time and personnel requirements, and other hard cost factors.
+    description: Consider cost to develop / deploy / host, time and personnel requirements, and other hard cost factors
     icon: fa-usd
 
   - name: Present Viability
-    description: What does a Minimum Viable Product look like? What functionality can you deliver <em>right now</em>, while still showing value?
+    description: What does a Minimum Viable Product look like? What functionality of value can you deliver <em>right now</em>
     icon: fa-thumbs-o-up
 
   - name: Value Proposition

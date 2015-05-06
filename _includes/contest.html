@@ -6,8 +6,15 @@
 
     {% include contest/ideas.html %}
 
-    {% include contest/submissions.html %}
+    <div class="row">
+      <div class="col-md-6">
+        {% include contest/guidelines.html %}
+      </div>
+      <div class="col-md-6">
+        {% include contest/judges.html %}
+      </div>
+    </div>
 
-    {% include contest/judging.html %}
+    {% include contest/presentations.html %}
   </div>
 </div>
