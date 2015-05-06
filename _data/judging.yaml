@@ -14,13 +14,13 @@ criteria:
     icon: fa-usd
 
   - name: Present Viability
-    description: What does a Minimum Viable Product look like? What functionality can you reasonably deliver <em>now</em>, while still showing value?
+    description: What does a Minimum Viable Product look like? What functionality can you deliver <em>right now</em>, while still showing value?
     icon: fa-thumbs-o-up
 
   - name: Value Proposition
-    description: Great ideas are common, great applications are not. Demonstrate the capacity to go above and beyond into something that people will actually use and benefit from.
+    description: Great ideas are common, great apps are not. Will people actually use and benefit from your product?
     icon: fa-star
 
-  - name: Growth
-    description: What is the long-term outlook for the product? Is it a one-off, or something that can morph and adapt over time? What are the long-term maintenance costs?
+  - name: Future Growth
+    description: What is the long-term outlook? Is the product a one-off, or something that can morph and adapt over time?
     icon: fa-line-chart

@@ -1,64 +1,57 @@
-- title: Day 1
-  date: 2015-06-05
+- date: 2015-06-05
   items:
     - start: "18:00"
       end: "19:00"
-      what: "Sign-In, mingle with other hackers"
+      what: Sign-In, mingle with other hackers
 
     - start: "19:00"
       end: "19:30"
-      what: "Introductory Speeches"
+      what: Introduction and Welcome
 
     - start: "19:30"
       end: "20:15"
-      what: "SME Panel Discussion"
-
-    - start: "20:15"
-      end: "20:30"
-      what: "Break"
+      what: SME Panel Discussion
 
     - start: "20:30"
       end: "22:00"
-      what: "Break-out Activity"
+      what: Break-out Activity
 
     - start: "22:00"
-      what: "Happy Hour?"
+      what: Happy Hour?
 
-- title: Day 2
-  date: 2015-06-06
+- date: 2015-06-06
   items:
     - start: "09:00"
-      what: "Venue open, breakfast served"
+      what: Venue open, breakfast served
 
     - start: "11:00"
       end: "13:00"
-      what: "SME Office Hours"
+      what: SME Office Hours
 
     - start: "13:00"
-      what: "Lunch served"
+      what: Lunch served
 
     - start: "18:00"
-      what: "Dinner served"
+      what: Dinner served
 
     - start: "22:00"
-      what: "Venue closes"
+      what: Venue closes
 
-- title: Day 3
-  date: 2015-06-07
+- date: 2015-06-07
   items:
     - start: "09:00"
-      what: "Venue open, breakfast served"
+      what: Venue open, breakfast served
 
     - start: "13:00"
-      what: "Lunch served"
+      what: Lunch served
 
     - start: "15:00"
-      what: "Pencils Down!"
+      what: Pencils Down!
 
     - start: "15:30"
       end: "17:00"
-      what: "Presentations"
+      what: Presentations
 
     - start: "17:00"
       end: "18:00"
-      what: "Judges deliberate, Winners named"
+      what: Judges deliberate, Winners named

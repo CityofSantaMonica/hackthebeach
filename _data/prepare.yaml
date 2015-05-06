@@ -1,0 +1,25 @@
+us:
+  - icon: fa-cloud-download
+    text: data and APIs
+
+  - icon: fa-wifi
+    text: wifi
+
+  - icon: fa-beer
+    text: sustenance
+
+  - icon: fa-comments
+    text: Subject Matter Expects to help refine your ideas
+
+you:
+  - icon: fa-font
+    text: game
+
+  - icon: fa-rocket
+    text: awesome app ideas
+
+  - icon: fa-laptop
+    text: your tools
+
+  - icon: fa-users
+    text: your friends (strangers also welcome)

@@ -1,9 +1,8 @@
-<h3><i class="fa fa-calendar"></i> What, and When?</h3>
 <div class="row">
   {% for day in site.data.agenda %}
   <div class="col-md-4">
     <table class="table table-striped">
-      <caption>{{ day.title }}: {{ day.date | date: "%A, %B %-d" }}</caption>
+      <caption><i class="fa fa-calendar"></i> {{ day.date | date: "%A, %B %-d" }}</caption>
       <tbody>
         {% for item in day.items %}
         <tr>
