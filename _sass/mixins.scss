@@ -1,0 +1,33 @@
+@mixin centerIconText() {
+  display: table-row;
+  > i,
+  > span {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+@mixin mediumIcon() {
+  font-size: 150%;
+  margin-right: 7px;
+}
+
+@mixin largeIcon() {
+  font-size: 250%;
+  margin-right: 10px;
+}
+
+@mixin drawTriangleFlag($size, $color) {
+    top: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(255, 0, 0, 0);
+    border-top-color: $color;
+    border-width: $size;
+    left: 50%;
+    margin-left: -$size;
+}
