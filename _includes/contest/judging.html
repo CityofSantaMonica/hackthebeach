@@ -1,4 +1,4 @@
-<h3>Judging</h3>
+<h3>The Judges</h3>
 <div class="row">
   {% for judge in site.data.judging.judges %}
   <div class="judge col-md-{{ 12 | divided_by:forloop.length }}">
@@ -8,7 +8,7 @@
   {% endfor %}
 </div>
 
-<p class="">Each team will have an opportunity (15 minutes) to pitch their product towards the end of Day 3. Judges will evaluate each product based on the following:</p>
+<p class="">Teams will have an opportunity (15 minutes each) to pitch their product towards the end of Day 3. Judges will evaluate each product based on the following:</p>
 
 <div class="row criteria">
   {% for criteria in site.data.judging.criteria %}
