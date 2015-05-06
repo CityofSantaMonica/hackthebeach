@@ -5,6 +5,7 @@
 $hackFont: "larabiefont", sans-serif;
 $highlightColor: orangered;
 $sectionHeaderColor: #193857;
+$sectionHeaderMarginBottom: 1.3em;
 $triangleSize: 12px;
 $white: #fff;
 $gray: #eee;
@@ -62,7 +63,7 @@ h2.section {
   color: $white;
   font-family: $hackFont;
   font-weight: bold;
-  margin-bottom: 1.3em;
+  margin-bottom: $sectionHeaderMarginBottom;
   padding: .3em 0;
   position: relative;
   text-align: center;
@@ -86,40 +87,64 @@ h2.section {
   &:first-of-type {
     margin-top: 0;
   }
+
+  &.contest{
+    margin-bottom: 0;
+  }
+  &.data {
+    margin-top: 0;
+  }
 }
 
-.row.contest {
-  background-color: $gray;
-}
+div.contest {
+  width: 100%;
+  background: url('../assets/contest-bg.jpg') no-repeat 50% -#{$sectionHeaderMarginBottom};
+  padding-top: $sectionHeaderMarginBottom;
 
-ul.ideas {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+  a {
+    font-weight: bold;
+  }
 
-  li {
-    margin-bottom: 2em;
+  ul.ideas {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 
-    img {
-      float: left;
-      margin-right: 10px;
+    li {
+      margin-bottom: 2em;
+
+      img {
+        float: left;
+        margin-right: 10px;
+      }
     }
   }
 
-}
-
-.judge {
-  min-height: 5em;
-
-  .headshot > span {
-    font-size: 4em;
+  i.submissions {
+    font-size: 2.5em;
   }
-}
 
-.criteria {
-  border-right: solid 1px $gray;
+  .judge {
+    min-height: 5em;
 
-  &:last-of-type {
-    border: none;
+    .headshot {
+
+      > i.fa {
+        font-size: 4em;
+      }
+    }
+  }
+
+  .criteria {
+    padding-bottom: 2em;
+
+    > div {
+      border-right: solid 1px $gray;
+      min-height: 140px;
+
+      &:last-of-type {
+        border: none;
+      }
+    }
   }
 }
