@@ -3,7 +3,11 @@
     <h3>You Bring</h3>
     <ul class="prepare">
       {% for item in site.data.prepare.you %}
-      <li><i class="fa {{ item.icon }}"></i> <span>{{ item.text }}</span></li>
+      <li>
+        <div>
+          <i class="fa fa-fw {{ item.icon }}"></i> <span>{{ item.text }}</span>
+        </div>
+      </li>
       {% endfor %}
     </ul>
   </div>
@@ -11,7 +15,11 @@
     <h3>We'll Provide</h3>
     <ul class="prepare">
       {% for item in site.data.prepare.us %}
-      <li><i class="fa {{ item.icon }}"></i> <span>{{ item.text }}</span></li>
+      <li>
+        <div>
+          <i class="fa fa-fw {{ item.icon }}"></i> <span>{{ item.text }}</span>
+        </div>
+      </li>
       {% endfor %}
     </ul>
   </div>

@@ -1,11 +1,19 @@
 <p>Some ideas to get you started:</p>
 <ul class="ideas row">
   {% for idea in site.data.projectIdeas limit:3  %}
-  <li class="col-md-4"><img src="assets/{{ idea.icon }}" alt="icon" /> {{ idea.description }}</li>
+  <li class="col-md-4">
+    <div>
+      <img src="assets/{{ idea.icon }}" alt="icon" /> <span>{{ idea.description }}</span>
+    </div>
+  </li>
   {% endfor %}
 </ul>
 <ul class="ideas row">
   {% for idea in site.data.projectIdeas offset:3  %}
-  <li class="col-md-4"><img src="assets/{{ idea.icon }}" alt="icon" /> {{ idea.description }}</li>
+  <li class="col-md-4">
+    <div>
+      <img src="assets/{{ idea.icon }}" alt="icon" /> <span>{{ idea.description }}</span>
+    </div>
+  </li>
   {% endfor %}
 </ul>

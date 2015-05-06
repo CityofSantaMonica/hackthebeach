@@ -1,3 +1,8 @@
+@mixin resetList() {
+  list-style: none;
+  padding-left: 0;
+}
+
 @mixin centerIconText() {
   display: table-row;
   > i,
@@ -7,14 +12,19 @@
   }
 }
 
-@mixin mediumIcon() {
+@mixin smallIcon() {
+  font-size: 120%;
+  padding-right: 3px;
+}
+
+@mixin mediumIcon($padding) {
   font-size: 150%;
-  margin-right: 7px;
+  padding-right: $padding;
 }
 
 @mixin largeIcon() {
   font-size: 250%;
-  margin-right: 10px;
+  padding-right: 10px;
 }
 
 @mixin drawTriangleFlag($size, $color) {
