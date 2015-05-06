@@ -2,4 +2,22 @@
 
 <div class="container">
   <p class="lead">Data Rules. Open Data Is Even Better.</p>
+
+  <p>Something missing? Have a question? Let us know! <a href="#disqus_thread">Discuss below</a> or <a href="mailto:data@smgov.net">drop us a line</a>.</p>
+
+  <div clas="row data-sources">
+  {% for source in site.data.sources %}
+    <div class="col-md-4">
+      <h3>
+        <i class="fa fa-fw {{ source.icon }}"></i>
+        <span>
+          <a href="{{ source.url }}" target="_blank">{{ source.name }}</a>
+        </span>
+      </h3>
+      <p>
+        {{ source.description }}
+      </p>
+    </div>
+  {% endfor %}
+  </div>
 </div>
