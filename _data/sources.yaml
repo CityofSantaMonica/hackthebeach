@@ -3,15 +3,15 @@
   description: Static and historic data layers in multiple formats.
   icon: fa-globe
 
-- name: GTFS Static
-  url: https://github.com/CityofSantaMonica/GTFS
-  description: Big Blue Bus current and historic schedule information.
-  icon: fa-bus
-
 - name: GTFS Real Time
   url: https://github.com/CityofSantaMonica/GTFS
   description: Big Blue Bus real-time position and trip updates.
   icon: fa-clock-o
+
+- name: GTFS Static
+  url: https://github.com/CityofSantaMonica/GTFS
+  description: Big Blue Bus current and historic schedule information.
+  icon: fa-bus
 
 - name: Parking Meters
   url: https://parking.api.smgov.net

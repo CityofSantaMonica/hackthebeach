@@ -24,6 +24,10 @@
     }
   }
 
+  h2 {
+    margin-top: 10px;
+  }
+
   ul {
     @include resetList();
     padding-left: 20px;
@@ -39,6 +43,7 @@
     color: $white;
     background-color: $highlightColor;
     font-family: sans-serif;
+    margin-bottom: 10px;
     &:hover {
       background-color: $gray;
       color: $darkgray;
