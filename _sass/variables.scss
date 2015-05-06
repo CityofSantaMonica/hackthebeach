@@ -1,7 +1,8 @@
+$spacer: 16px;
 $hackFont: "larabiefont", sans-serif;
 $highlightColor: orangered;
 $sectionHeaderColor: #193857;
-$sectionHeaderMarginBottom: 1.3em;
+$sectionHeaderMarginBottom: $spacer * 1.5;
 $triangleSize: 12px;
 $white: #fff;
 $gray: #eee;
