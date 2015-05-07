@@ -5,6 +5,10 @@
 @import "variables";
 @import "mixins";
 
+body {
+  font-family: $bodyFont;
+}
+
 .jumbotron {
   background: url('../assets/hero.jpg') no-repeat top left;
   color: $white;
@@ -55,19 +59,23 @@
   }
 }
 
-h2.section {
+.row.header {
   background-color: $sectionHeaderColor;
   color: $white;
   font-family: $hackFont;
   font-weight: bold;
   margin-bottom: $sectionHeaderMarginBottom;
   padding: #{$spacer / 2} 0;
-  position: relative;
-  text-align: center;
-  width: 100%;
+  height: #{$spacer * 3};
 
-  &:after {
-    @include drawTriangleFlag($triangleSize, $highlightColor);
+  i {
+    @include largeIcon();
+    width: 100%;
+  }
+
+  h2 {
+    width: 100%;
+    margin: 0;
   }
 
   &:first-of-type,
@@ -80,25 +88,22 @@ h2.section {
   }
 }
 
-p.lead.action {
-  @include centerIconText();
-  > i {
-    @include largeIcon();
-  }
+.row.section {
+  padding-bottom: #{$spacer * 1.5};
 }
 
-p.sub.action {
-  margin: $spacer 0;
+p.sub {
+  margin-bottom: #{$spacer * 2};
 }
 
-.agenda {
+#agenda {
   margin: $spacer 0;
   i {
     @include smallIcon();
   }
 }
 
-.row.map {
+#map {
   margin: $spacer 0;
   address {
     margin-bottom: $spacer;
@@ -124,7 +129,7 @@ ul.prepare {
   }
 }
 
-div.contest {
+div.section.contest {
   width: 100%;
   background: url('../assets/contest-bg.jpg') no-repeat 50% -#{$sectionHeaderMarginBottom};
   padding-top: $sectionHeaderMarginBottom;

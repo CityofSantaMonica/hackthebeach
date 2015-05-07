@@ -1,20 +1,14 @@
-<h2 class="section contest">Compete</h2>
+<p class="lead text-center">Build a service or application to address a mobility-related challenge in Santa Monica. You might win something.</p>
 
-<div class="contest">
-  <div class="container">
-    <p class="lead">Build a service or application to address a mobility-related challenge in Santa Monica. You might win something.</p>
+{% include contest/ideas.html %}
 
-    {% include contest/ideas.html %}
-
-    <div class="row">
-      <div class="col-md-6 submission-guidelines">
-        {% include contest/guidelines.html %}
-      </div>
-      <div class="col-md-6">
-        {% include contest/judges.html %}
-      </div>
-    </div>
-
-    {% include contest/presentations.html %}
+<div class="row">
+  <div class="col-md-6 submission-guidelines">
+    {% include contest/guidelines.html %}
+  </div>
+  <div class="col-md-6">
+    {% include contest/judges.html %}
   </div>
 </div>
+
+{% include contest/presentations.html %}

@@ -4,7 +4,7 @@
 }
 
 @mixin centerIconText() {
-  display: table-row;
+  display: table;
   > i,
   > span {
     display: table-cell;

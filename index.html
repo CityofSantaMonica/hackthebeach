@@ -4,10 +4,24 @@ layout: default
 
 {% include jumbotron.html %}
 
-{% include overview.html %}
+{% for section in site.data.layout %}
+<div class="row header {{ section.name }}">
+  <div class="col-md-12">
+    <div class="container">
+      {% if section.header.icon %}
+      <i class="fa fa-fw {{ section.header.icon }} lead text-center"></i>
+      {% else if section.header.text %}
+      <h2 class="text-center">{{ section.header.text }}</h2>
+      {% endif %}
+    </div>
+  </div>
+</div>
 
-{% include contest.html %}
-
-{% include thedata.html %}
-
-{% include disqus.html %}
+<div class="row section {{ section.name }}">
+  <div class="col-md-12">
+    <div class="container">
+    {% include {{ section.name }}.html %}
+    </div>
+  </div>
+</div>
+{% endfor %}

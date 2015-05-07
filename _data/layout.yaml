@@ -1,0 +1,15 @@
+- name: overview
+  header:
+    icon: fa-lightbulb-o
+
+- name: contest
+  header:
+    text: Compete
+
+- name: data
+  header:
+    text: Explore
+
+- name: disqus
+  header:
+    text: Talk About It
