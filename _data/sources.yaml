@@ -3,7 +3,7 @@
   description: Static and historic data layers in multiple formats.
   icon: fa-globe
 
-- name: GTFS Real Time
+- name: GTFS Real-Time
   url: https://github.com/CityofSantaMonica/GTFS
   description: Big Blue Bus real-time position and trip updates.
   icon: fa-clock-o
@@ -13,10 +13,10 @@
   description: Big Blue Bus current and historic schedule information.
   icon: fa-bus
 
-- name: Parking Meters
+- name: Parking
   url: https://parking.api.smgov.net
-  description: Near real-time feed of on-street parking meter activity.
-  icon: fa-tachometer
+  description: Real-time feed of public lot availability and on-street meter activity.
+  icon: fa-car
 
 - name: Socrata Open Data Portal
   url: https://data.smgov.net/browse
