@@ -1,19 +1,15 @@
-<div class="row" id="agenda">
-  {% for day in site.data.agenda %}
-  <div class="col-md-4">
-    <table class="table table-striped">
-      <caption><i class="fa fa-fw fa-calendar"></i> {{ day.date | date: "%A, %B %-d" }}</caption>
-      <tbody>
-        {% for item in day.items %}
-        <tr>
-          <td>{{ item.start }} {% if item.end %}to {{ item.end }}{% endif %}</td>
-          <td>
-            <p>{{ item.what }}</p>
-          </td>
-        </tr>
-        {% endfor %}
-      </tbody>
-    </table>
-  </div>
+{% for day in site.data.agenda %}
+<table class="table table-striped">
+  <caption><i class="fa fa-fw fa-calendar"></i> {{ day.date | date: "%A, %B %-d" }}</caption>
+  <tbody>
+    {% for item in day.items %}
+    <tr>
+      <td>{{ item.start }} {% if item.end %}to {{ item.end }}{% endif %}</td>
+      <td>
+        <p>{{ item.what }}</p>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+  </table>
   {% endfor %}
-</div>

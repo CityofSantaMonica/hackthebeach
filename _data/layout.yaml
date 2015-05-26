@@ -1,6 +1,6 @@
 - name: overview
   header:
-    icon: fa-lightbulb-o
+    text: About
 
 - name: contest
   header:

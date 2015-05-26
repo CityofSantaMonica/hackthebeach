@@ -1,57 +1,33 @@
-- date: 2015-06-05
-  items:
-    - start: "18:00"
-      end: "19:00"
-      what: Sign-In, mingle with other hackers
-
-    - start: "19:00"
-      end: "19:30"
-      what: Introduction and Welcome
-
-    - start: "19:30"
-      end: "20:15"
-      what: SME Panel Discussion
-
-    - start: "20:30"
-      end: "22:00"
-      what: Break-out Activity
-
-    - start: "22:00"
-      what: Happy Hour?
-
 - date: 2015-06-06
   items:
-    - start: "09:00"
-      what: Venue open, breakfast served
+    - start: "10:00"
+      end: "10:20"
+      what: Sign-ins and Mingling
 
-    - start: "11:00"
-      end: "13:00"
-      what: SME Office Hours
+    - start: "10:20"
+      end: "10:50"
+      what: Welcome
 
-    - start: "13:00"
+    - start: "10:50"
+      end: "11:30"
+      what: Introduction of new datasets
+
+    - start: "11:30"
+      end: "12:00"
       what: Lunch served
 
-    - start: "18:00"
-      what: Dinner served
+    - start: "12:00"
+      end: "13:30"
+      what: "Breakout Session: BBB Track"
 
-    - start: "22:00"
-      what: Venue closes
+    - start: "12:00"
+      end: "13:30"
+      what: "Breakout Session: Parking Track"
 
-- date: 2015-06-07
-  items:
-    - start: "09:00"
-      what: Venue open, breakfast served
+    - start: "13:30"
+      end: "13:50"
+      what: "Soapbox: Plug your projects and lessons-learned"
 
-    - start: "13:00"
-      what: Lunch served
-
-    - start: "15:00"
-      what: Pencils Down!
-
-    - start: "15:30"
-      end: "17:00"
-      what: Presentations
-
-    - start: "17:00"
-      end: "18:00"
-      what: Judges deliberate, Winners named
+    - start: "13:50"
+      end: "14:00"
+      what: Closing remarks

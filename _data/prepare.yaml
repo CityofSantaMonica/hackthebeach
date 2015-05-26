@@ -7,19 +7,3 @@ us:
 
   - icon: fa-beer
     text: sustenance
-
-  - icon: fa-comments
-    text: Subject Matter Experts to help refine your ideas
-
-you:
-  - icon: fa-font
-    text: game
-
-  - icon: fa-rocket
-    text: awesome app ideas
-
-  - icon: fa-laptop
-    text: your tools
-
-  - icon: fa-users
-    text: your friends (strangers also welcome)
