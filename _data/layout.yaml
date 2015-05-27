@@ -2,9 +2,9 @@
   header:
     text: About
 
-- name: contest
+- name: tracks
   header:
-    text: Compete
+    text: Tracks
 
 - name: data
   header:
