@@ -5,8 +5,24 @@
   </div>
   <div class="col-md-4">
     <h2>Where?</h2>
-    {% include overview/address.html %}
-    {% include overview/bbb.html %}
-    {% include overview/prepare.html %}
+    <address>
+      <i class="fa fa-map-marker"></i>
+      <strong>Santa Monica Public Library</strong>
+      <br >
+      <a href="https://goo.gl/maps/ACLcZ" target="_blank">601 Santa Monica Blvd <br />Santa Monica, CA 90401</a>
+    </address>
+
+    <p>The Santa Monica Public Library is served directly by <a href="http://www.bigbluebus.com" target="_blank">BBB</a> lines 7 and 10. Stops on BBB lines 1, 2, 3, 8, and 9 are a short walk away.</p>
+
+    <h2>We'll Provide</h2>
+    <ul class="prepare">
+      {% for item in site.data.prepare.us %}
+      <li>
+        <div>
+          <i class="fa fa-fw {{ item.icon }}"></i> <span>{{ item.text }}</span>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
   </div>
 </div>
