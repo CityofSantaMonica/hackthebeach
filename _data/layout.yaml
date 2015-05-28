@@ -4,7 +4,7 @@
 
 - name: tracks
   header:
-    text: Tracks
+    text: Breakout Sessions
 
 - name: data
   header:
