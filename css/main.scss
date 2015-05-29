@@ -63,7 +63,7 @@ body {
   }
 }
 
-.row.header {
+.header {
   background-color: $sectionHeaderColor;
   color: $white;
   font-family: $hackFont;
@@ -91,7 +91,7 @@ body {
   }
 }
 
-.row.section {
+.section {
   padding: $sectionSpacer 0;
 }
 
