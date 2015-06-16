@@ -22,7 +22,9 @@ a.btn {
 
 img { max-width: 100%; }
 
-img.ndoch { margin-left: -#{$spacer * 1.5 } }
+@media screen and (min-width: 748px) {
+  img.ndoch { margin-left: -#{$spacer * 1.5 } }
+}
 
 .jumbotron {
   background: url('../assets/hero.jpg') no-repeat top left;
@@ -94,7 +96,6 @@ div.section.events {
   background-color: #54585b;
   color: #fff;
   a {
-    color: #1884c6;
-    font-weight: bold;
+    color: #accdec;
   }
 }
