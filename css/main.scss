@@ -20,6 +20,10 @@ a.btn {
   }
 }
 
+img { max-width: 100%; }
+
+img.ndoch { margin-left: -#{$spacer * 1.5 } }
+
 .jumbotron {
   background: url('../assets/hero.jpg') no-repeat top left;
   color: $white;
@@ -71,11 +75,6 @@ a.btn {
   padding: #{$spacer / 2} 0;
   height: #{$spacer * 3};
 
-  i {
-    @include largeIcon();
-    width: 100%;
-  }
-
   h2 {
     width: 100%;
     margin: 0;
@@ -85,12 +84,13 @@ a.btn {
   &.data {
     margin-top: 0;
   }
-
-  &.contest{
-    margin-bottom: 0;
-  }
 }
 
 .section {
   padding: $sectionSpacer 0;
+}
+
+div.section.events {
+  background-color: #54585b;
+  color: #fff;
 }

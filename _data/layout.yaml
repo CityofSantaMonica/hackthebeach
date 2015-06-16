@@ -2,9 +2,9 @@
   header:
     text: About
 
-- name: tracks
+- name: events
   header:
-    text: Breakout Sessions
+    text: Our Events
 
 - name: data
   header:
