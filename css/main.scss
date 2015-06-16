@@ -93,4 +93,8 @@ img.ndoch { margin-left: -#{$spacer * 1.5 } }
 div.section.events {
   background-color: #54585b;
   color: #fff;
+  a {
+    color: #1884c6;
+    font-weight: bold;
+  }
 }
