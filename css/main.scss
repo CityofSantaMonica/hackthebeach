@@ -9,6 +9,17 @@ body {
   font-family: $bodyFont;
 }
 
+a.btn {
+  color: $white;
+  background-color: $highlightColor;
+  font-family: sans-serif;
+  margin-bottom: $spacer;
+  &:hover {
+    background-color: $gray;
+    color: $darkgray;
+  }
+}
+
 .jumbotron {
   background: url('../assets/hero.jpg') no-repeat top left;
   color: $white;
@@ -47,17 +58,6 @@ body {
     }
   }
 
-  a.btn {
-    color: $white;
-    background-color: $highlightColor;
-    font-family: sans-serif;
-    margin-bottom: $spacer;
-    &:hover {
-      background-color: $gray;
-      color: $darkgray;
-    }
-  }
-
   h1, h2, li {
     font-weight: bold;
   }
@@ -93,41 +93,4 @@ body {
 
 .section {
   padding: $sectionSpacer 0;
-}
-
-p.sub {
-  margin-bottom: #{$spacer * 2};
-}
-
-#agenda {
-  margin: $spacer 0;
-  i {
-    @include smallIcon();
-  }
-}
-
-img.library {
-  max-width: 100%;
-  margin-bottom: $spacer;
-}
-
-ul.prepare {
-  @include resetList();
-
-  > li {
-    display: block;
-    margin-bottom: $spacer;
-
-    > div {
-      @include centerIconText();
-      > i {
-        @include mediumIcon(#{$spacer / 2 });
-      }
-    }
-  }
-}
-
-div.section.tracks {
-  background-color: $darkgray;
-  color: $white;
 }
