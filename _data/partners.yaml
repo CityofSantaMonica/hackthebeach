@@ -1,0 +1,23 @@
+- name: Downtown Santa Monica
+  logo: http://lorempixel.com/200/200/nightlife
+  url: http://www.google.com
+
+- name: General Assembly
+  logo: http://lorempixel.com/200/200/abstract
+  url: http://www.google.com
+
+- name: Cross Campus
+  logo: http://lorempixel.com/200/200/nature
+  url: http://www.google.com
+  
+- name: Santa Monica Chamber of Commerce
+  logo: http://lorempixel.com/200/200/business
+  url: http://www.google.com
+
+- name: Expert Dojo
+  logo: http://lorempixel.com/200/200/technics
+  url: http://www.google.com
+
+- name: City of Santa Monica
+  logo: http://lorempixel.com/200/200/animals
+  url: http://www.google.com

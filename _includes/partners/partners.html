@@ -1,0 +1,8 @@
+<div class="row">
+  {% for partner in site.data.partners %}
+  <div class="col-md-4 partner">
+    <h3><a href="{{ partner.url }}" target="_blank">{{ partner.name }}</a></h3>
+    <img class="img-circle" alt="{{ partner.name }} logo" src="{{ partner.logo }}" />
+  </div>
+  {% endfor %}
+</div>
