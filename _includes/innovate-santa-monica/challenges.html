@@ -1,17 +1,9 @@
 <div class="row">
-  <div class="col-md-4">
-    <h2 class="text-center">Community</h2>
-    <img class="img-responsive" src="http://lorempixel.com/400/400/people" />
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus, mi sit amet molestie porttitor, ex felis congue elit, at suscipit est neque ac ligula. Vivamus porttitor, ipsum id porttitor placerat, elit lectus semper justo, eu hendrerit lacus arcu quis enim.</p>
+  {% for challenge in site.data.challenges %}
+  <div class="col-md-4 challenge">
+    <h2 class="text-center">{{ challenge.topic }}</h2>
+    <img class="img-responsive" src="{{ challenge.logo }}" />
+    <p>{{ challenge.blurb }}</p>
   </div>
-  <div class="col-md-4">
-    <h2 class="text-center">Mobility</h2>
-    <img class="img-responsive" src="http://lorempixel.com/400/400/transport" />
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus, mi sit amet molestie porttitor, ex felis congue elit, at suscipit est neque ac ligula. Vivamus porttitor, ipsum id porttitor placerat, elit lectus semper justo, eu hendrerit lacus arcu quis enim.</p>
-  </div>
-  <div class="col-md-4">
-    <h2 class="text-center">Citizen Engagement</h2>
-    <img class="img-responsive" src="http://lorempixel.com/400/400/city" />
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus, mi sit amet molestie porttitor, ex felis congue elit, at suscipit est neque ac ligula. Vivamus porttitor, ipsum id porttitor placerat, elit lectus semper justo, eu hendrerit lacus arcu quis enim.</p>
-  </div>
+  {% endfor %}
 </div>
