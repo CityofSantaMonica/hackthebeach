@@ -1,14 +1,10 @@
 - name: overview
   header:
     text: About
-
+    
 - name: events
   header:
-    text: Our Events
-
-- name: data
-  header:
-    text: Explore
+    text: Upcoming Events
 
 - name: disqus
   header:

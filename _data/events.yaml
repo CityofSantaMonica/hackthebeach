@@ -1,0 +1,22 @@
+- name: Innovate Santa Monica Kickoff
+  date: 2015-10-01
+  start: 5:30pm
+  end: 8:00pm
+  description: Learn about the contest, meet potential team members, Q&A with City staff and tech leaders.
+  location:
+     name: General Assembly
+     url: https://generalassemb.ly/
+     address: 1520 2nd Street
+     map: https://www.google.com/maps/place/General+Assembly+Los+Angeles
+  
+- name: Innovate Santa Monica Pitch Night
+  date: 2015-10-09
+  start: 4:00pm
+  end: 6:00pm
+  description: Something something something bla bla bla
+  location:
+    name: Expert Dojo
+    url: http://expertdojo.com/
+    address: Santa Monica Place Unit 308 (3rd Floor)
+    map: https://www.google.com/maps/place/Santa+Monica+Place,+395+Santa+Monica+Pier,+Santa+Monica,+CA+90401
+  

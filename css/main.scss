@@ -9,6 +9,16 @@ body {
   font-family: $bodyFont;
 }
 
+body > nav.navbar {
+  background: rgba(0, 0, 0, 0.75);
+  font-size: larger;
+  
+  .navbar-brand {
+    color: #fff;
+    font-family: $hackFont;
+  }
+}
+
 a.btn {
   color: $white;
   background-color: $highlightColor;
@@ -29,13 +39,18 @@ img { max-width: 100%; }
 .jumbotron {
   background: url('../assets/hero.jpg') no-repeat top left;
   color: $white;
-  font-family: $hackFont;
   font-size: 1.5em;
   margin-bottom: 0;
   padding-bottom: #{$spacer * 2};
 
   @media #{$screen-md} {
-    padding-top: #{$spacer * 3};
+    min-height: 350px;
+    //padding-top: #{$spacer * 4};
+  }
+
+  .container {
+    margin-top: #{$spacer * 2};
+    background: rgba(0, 0, 0, 0.5);
   }
 
   img.logo {
@@ -47,10 +62,6 @@ img { max-width: 100%; }
     &:first-of-type {
       margin-bottom: 10px;
     }
-  }
-
-  h2 {
-    margin-top: $spacer;
   }
 
   ul {
@@ -93,9 +104,10 @@ img { max-width: 100%; }
 }
 
 div.section.events {
-  background-color: #54585b;
-  color: #fff;
+  //background-color: #54585b;
+  //color: #fff;
   a {
-    color: #accdec;
+    //
+color: #accdec;
   }
 }
