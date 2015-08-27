@@ -8,3 +8,21 @@ nav.navbar {
     color: $white;
   }
 }
+
+@media screen and (max-width: 767px) {
+  nav.navbar {
+    margin-bottom: 0;
+    background-color: #000;
+  }
+  
+  nav.navbar-fixed-top {
+    position: relative;
+    top: auto;
+  }
+  .navbar-collapse {
+      max-height: none;
+  }
+  body {
+      margin: 0;
+  }
+}

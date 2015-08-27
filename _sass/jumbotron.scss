@@ -8,7 +8,6 @@
   min-height: 200px;
   
   .content {
-    margin-top: #{$spacer * 2};
     background: rgba(0, 0, 0, 0.5);
     padding: #{$spacer};
   }
@@ -20,6 +19,12 @@
 
   p {
     font-size: 1.2em;
+  }
+  
+  @media #{$screen-sm} {
+     .content {
+       margin-top: #{$spacer * 2};
+     }
   }
   
   @media #{$screen-md} {
