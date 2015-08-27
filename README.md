@@ -14,7 +14,9 @@ Linux (e.g. Ubuntu) or OS X, and so do I.
   1. Clone the repo into a local directory
   
   > `$ git clone git@github.com:CityofSantaMonica/hackthebeach.git ./hackthebeach`
+  
   > `$ ...`
+  
   > `$ cd hackthebeach`
   
   2. Install the `github-pages` gem and its dependencies
