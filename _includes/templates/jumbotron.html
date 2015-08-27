@@ -1,0 +1,9 @@
+<div class="jumbotron">
+  <div class="container">
+    {% if include.content != null %}
+    <div class="content">
+      {% include {{ include.content }} %}
+    </div>
+    {% endif %}
+  </div>
+</div>

@@ -31,10 +31,12 @@
   <body>
     {% include navbar.html %}
     
-    {% include jumbotron.html %}
+    {% include templates/jumbotron.html content=page.jumbotron %}
     
     {{ content }}
 
+    {% include templates/section.html header="Talk About It" content="disqus.html" %}
+    
     <div class="container">
       <hr>
       <footer>

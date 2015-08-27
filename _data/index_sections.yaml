@@ -1,7 +1,0 @@
-- name: events
-  header:
-    text: Upcoming Events
-
-- name: disqus
-  header:
-    text: Talk About It
