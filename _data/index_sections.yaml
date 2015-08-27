@@ -1,7 +1,3 @@
-- name: overview
-  header:
-    text: About
-    
 - name: events
   header:
     text: Upcoming Events
