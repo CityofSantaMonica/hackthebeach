@@ -1,11 +1,16 @@
 $spacer: 16px;
 $sectionSpacer: #{$spacer * 1.5 };
+$triangleSize: 12px;
+
 $bodyFont: "myriad-pro";
 $hackFont: "larabiefont", sans-serif;
-$highlightColor: orangered;
-$sectionHeaderColor: #193857;
-$triangleSize: 12px;
+
 $white: #fff;
 $gray: #eee;
 $darkgray: #54585b;
-$screen-md: "screen and (min-width: 768px)";
+$highlightColor: orangered;
+$sectionHeaderColor: #193857;
+
+$screen-sm: "screen and (min-width: 768px)";
+$screen-md: "screen and (min-width: 992px)";
+$screen-lg: "screen and (min-width: 1200px)";

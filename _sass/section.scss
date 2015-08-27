@@ -1,0 +1,28 @@
+@import "variables";
+
+.header {
+  background-color: $sectionHeaderColor;
+  color: $white;
+  font-family: $hackFont;
+  font-weight: bold;
+  padding: #{$spacer / 2} 0;
+  height: #{$spacer * 3};
+
+  h2 {
+    width: 100%;
+    margin: 0;
+  }
+
+  &:first-of-type,
+  &.data {
+    margin-top: 0;
+  }
+}
+
+.section {
+  padding: $sectionSpacer 0;
+}
+
+.section + .section {
+  padding-top: 0;
+}

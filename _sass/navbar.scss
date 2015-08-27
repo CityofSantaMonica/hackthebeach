@@ -1,0 +1,10 @@
+@import "variables";
+
+nav.navbar {
+  background: rgba(0, 0, 0, 0.75);
+  font-size: larger;
+  
+  .navbar-brand {
+    color: $white;
+  }
+}

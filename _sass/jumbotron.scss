@@ -1,0 +1,43 @@
+@import "variables";
+
+.jumbotron {
+  background: url('../assets/hero.jpg') no-repeat top left;
+  color: $white;
+  margin-bottom: 0;
+  padding-bottom: #{$spacer * 2};
+  min-height: 200px;
+  
+  .content {
+    margin-top: #{$spacer * 2};
+    background: rgba(0, 0, 0, 0.5);
+    padding: #{$spacer};
+  }
+  
+  h1 {
+    font-size: 2em;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 1.2em;
+  }
+  
+  @media #{$screen-md} {
+    min-height: 350px;
+    padding: 30px 15px;
+    
+    h1 {
+      font-size: 2.5em;
+    }
+
+    p {
+      font-size: 1.5em;
+    }
+  }
+
+  @media #{$screen-lg} {
+    h1 {
+      font-size: 4em;
+    }
+  }
+}
