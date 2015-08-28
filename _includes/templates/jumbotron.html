@@ -1,9 +1,9 @@
 <div class="jumbotron">
   <div class="container">
-    {% if include.content != null %}
-    <div class="content">
+    {% if include.content %}
+    <article class="content">
       {% include {{ include.content }} %}
-    </div>
+    </article>
     {% endif %}
   </div>
 </div>
