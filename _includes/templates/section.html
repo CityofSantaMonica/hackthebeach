@@ -1,4 +1,4 @@
-{% if include.header != null %}
+{% if include.header %}
 <div class="header">
   <div class="container">
     <h2 class="text-center">{{ include.header }}</h2>
@@ -6,7 +6,7 @@
 </div>
 {% endif %}
 
-{% if include.content != null %}
+{% if include.content %}
 <div class="section {{ include.name }}">
   <div class="container">
     {% include {{ include.content }} %}

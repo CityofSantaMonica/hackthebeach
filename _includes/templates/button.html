@@ -1,0 +1,39 @@
+{% if include.href %}
+  {% assign href = include.href %}
+{% else %}
+  {% assign href = "#" %}
+{% endif %}
+
+{% if include.target %}
+  {% assign target = include.target %}
+{% else %}
+  {% assign target = "_self" %}
+{% endif %}
+
+{% if href | slice: 0 == "/" %}
+  {% assign href = href | prepend: site.baseurl %}
+  {% assign target = "_self" %}
+{% endif %}
+
+{% if include.class %}
+  {% assign class = include.class | prepend: "btn " %}
+{% else %}
+  {% assign class = "btn btn-default btn-lg" %}
+{% endif %}
+
+{% if include.icon %}
+  {% assign icon = include.icon | prepend: "fi fi-fw " %}
+{% else %}
+  {% assign icon = "fi fi-fw fi-circle-arrow-right" %}
+{% endif %}
+
+<a href="{{ href }}"
+   target="{{ target }}"
+   class="{{ class }}">{{ include.text }} <span class="{{ icon }}"></span>
+</a>
+
+{% assign href = null %}
+{% assign target = null %}
+{% assign local = null %}
+{% assign class = null %}
+{% assign icon = null %}
