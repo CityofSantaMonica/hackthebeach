@@ -1,0 +1,8 @@
+{% if include.icon %}
+  {% assign icon = include.icon | prepend: "fi fi-" %}
+  {% if include.fixed == true or include.fixed == "true" %}
+    {% assign icon = icon | append: " fi-fw" %}
+  {% endif %}
+  <span class="{{ icon }}"></span>
+  {% assign icon = null %}
+{% endif %}
