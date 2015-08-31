@@ -23,6 +23,7 @@
   padding: $sectionSpacer 0;
 }
 
-.section + .section {
+.section + .section,
+.jumbotron + .section{
   padding-top: 0;
 }
