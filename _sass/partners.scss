@@ -1,11 +1,13 @@
 @import "variables";
 
-.partner {
-  text-align: center;
-  margin-bottom: #{$spacer};
+.partners {
+  .member {
+    text-align: center;
+    margin-bottom: #{$spacer};
   
-  img {
-    margin: 0 auto;
-    margin-bottom: 0.5em;
+    img {
+      margin: 0 auto;
+      margin-bottom: 0.5em;
+    }
   }
 }
