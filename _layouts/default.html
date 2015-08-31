@@ -51,6 +51,9 @@
 
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    {% if page.js %}
+    <script src="{{ site.baseurl }}/js/{{ page.js }}"></script>
+    {% endif %}
   </body>
 
 </html>
