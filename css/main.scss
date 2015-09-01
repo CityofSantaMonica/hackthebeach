@@ -18,6 +18,11 @@ body {
   font-family: $hackFont;
 }
 
+.loading {
+  margin-left: 16px;
+  width: 64px;
+}
+
 a.btn-default {
   color: $white;
   background-color: $highlightColor;
