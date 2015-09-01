@@ -1,4 +1,4 @@
-- name: Innovate Santa Monica Kickoff
+- name: Bootstrap Santa Monica Kickoff
   date: 2015-10-01
   start: 5:30pm
   end: 8:00pm
@@ -9,7 +9,7 @@
      address: 1520 2nd Street
      map: https://www.google.com/maps/place/General+Assembly+Los+Angeles
   
-- name: Innovate Santa Monica Pitch Night
+- name: Bootstrap Santa Monica Pitch Night
   date: 2015-10-09
   start: 4:00pm
   end: 6:00pm
