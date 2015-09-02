@@ -1,47 +1,44 @@
 - name: Carl Hansen
   organization: Santa Monica Chamber of Commerce
+  title: Director of Government Affairs
   url: https://twitter.com/govaffairs
-  logo: http://lorempixel.com/200/200/people/1
-  blurb: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus, mi sit amet molestie porttitor, ex felis congue elit, at suscipit est neque ac ligula.
+  logo: /assets/carl-hansen.jpg
   
-- name: Carl Hansen
-  organization: Santa Monica Chamber of Commerce
+- name: Becky Feldman
+  organization: Cross Campus
+  title: Director of Events and Programming
   url: https://twitter.com/govaffairs
-  logo: http://lorempixel.com/200/200/people/2
-  blurb: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus, mi sit amet molestie porttitor, ex felis congue elit, at suscipit est neque ac ligula.
+  logo: /assets/becky-feldman.jpg
   
-- name: Carl Hansen
-  organization: Santa Monica Chamber of Commerce
+- name: Natalie Howard
+  organization: General Assembly
+  title: LA Campus Marketing Producer
   url: https://twitter.com/govaffairs
-  logo: http://lorempixel.com/200/200/people/3
-  blurb: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus, mi sit amet molestie porttitor, ex felis congue elit, at suscipit est neque ac ligula.
+  logo: /assets/natalie-howard.jpg
   
-- name: Carl Hansen
-  organization: Santa Monica Chamber of Commerce
-  url: https://twitter.com/govaffairs
-  logo: http://lorempixel.com/200/200/people/4
-  blurb: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus, mi sit amet molestie porttitor, ex felis congue elit, at suscipit est neque ac ligula.
+- name: Kegan Maher
+  organization: City of Santa Monica
+  title: Web Developer
+  url: https://github.com/thekaveman
+  logo: /assets/kegan-maher.jpg
   
-- name: Carl Hansen
-  organization: Santa Monica Chamber of Commerce
-  url: https://twitter.com/govaffairs
-  logo: http://lorempixel.com/200/200/people/5
-  blurb: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus, mi sit amet molestie porttitor, ex felis congue elit, at suscipit est neque ac ligula.
+- name: Behrang Abadi
+  organization: City of Santa Monica
+  title: Web Development Manager
+  url: http://www.smgov.net
+  logo: /assets/behrang-abadi.jpg
   
 - name: Carl Hansen
   organization: Santa Monica Chamber of Commerce
   url: https://twitter.com/govaffairs
   logo: http://lorempixel.com/200/200/people/6
-  blurb: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus, mi sit amet molestie porttitor, ex felis congue elit, at suscipit est neque ac ligula.
-  
+
 - name: Carl Hansen
   organization: Santa Monica Chamber of Commerce
   url: https://twitter.com/govaffairs
   logo: http://lorempixel.com/200/200/people/7
-  blurb: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus, mi sit amet molestie porttitor, ex felis congue elit, at suscipit est neque ac ligula.
   
 - name: Carl Hansen
   organization: Santa Monica Chamber of Commerce
   url: https://twitter.com/govaffairs
   logo: http://lorempixel.com/200/200/people/8
-  blurb: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus, mi sit amet molestie porttitor, ex felis congue elit, at suscipit est neque ac ligula.
