@@ -1,29 +1,23 @@
 - name: Downtown Santa Monica
   logo: http://lorempixel.com/200/200/nightlife
-  url: http://www.google.com
-  blurb: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus, mi sit amet molestie porttitor, ex felis congue elit, at suscipit est neque ac ligula.
+  url: http://www.downtownsm.com/
 
 - name: General Assembly
   logo: http://lorempixel.com/200/200/abstract
-  url: http://www.google.com
-  blurb: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus, mi sit amet molestie porttitor, ex felis congue elit, at suscipit est neque ac ligula.
+  url: https://generalassemb.ly/
 
 - name: Cross Campus
   logo: http://lorempixel.com/200/200/nature
-  url: http://www.google.com
-  blurb: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus, mi sit amet molestie porttitor, ex felis congue elit, at suscipit est neque ac ligula.
+  url: http://www.crosscamp.us/
   
-- name: Chamber of Commerce
+- name: Santa Monica Chamber
   logo: http://lorempixel.com/200/200/business
-  url: http://www.google.com
-  blurb: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus, mi sit amet molestie porttitor, ex felis congue elit, at suscipit est neque ac ligula.
-
+  url: http://smchamber.com/
+  
 - name: Expert Dojo
   logo: http://lorempixel.com/200/200/technics
-  url: http://www.google.com
-  blurb: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus, mi sit amet molestie porttitor, ex felis congue elit, at suscipit est neque ac ligula.
-
+  url: http://expertdojo.com/
+  
 - name: City of Santa Monica
   logo: http://lorempixel.com/200/200/animals
-  url: http://www.google.com
-  blurb: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tempus, mi sit amet molestie porttitor, ex felis congue elit, at suscipit est neque ac ligula.
+  url: http://www.smgov.net
