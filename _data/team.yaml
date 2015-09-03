@@ -27,3 +27,33 @@
   title: Web Development Manager
   url: http://www.smgov.net
   logo: /assets/behrang-abadi.jpg
+  
+- name: Becky Yang
+  organization: WeWork
+  title: Expansion Lead
+  url: http://www.wework.com
+  logo: /assets/becky-yang.jpg
+  
+- name: Collette Hanna
+  organization: Downtown Santa Monica
+  title: External Affairs Manager
+  url: http://www.downtownsm.com
+  logo: http://lorempixel.com/200/200/people
+  
+- name: Danielle Noble
+  organization: City of Santa Monica
+  title: Deputy City Manager
+  url: http://www.smgov.net
+  logo: http://lorempixel.com/200/200/people
+  
+- name: Brian MacMahon
+  organization: Expert Dojo
+  title: Head Honcho
+  url: http://www.smgov.net
+  logo: /assets/brian-macmahon.jpg
+  
+- name: Jay Farrand
+  organization: Santa Monica Pier
+  title: Executive Director & Administrator
+  url: http://santamonicapier.org/
+  logo: /assets/jay-farrand.jpg

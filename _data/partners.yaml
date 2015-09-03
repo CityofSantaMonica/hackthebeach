@@ -1,23 +1,27 @@
 - name: Downtown Santa Monica
-  logo: http://lorempixel.com/200/200/nightlife
+  logo: /assets/downtown-sm.jpg
   url: http://www.downtownsm.com/
 
 - name: General Assembly
-  logo: http://lorempixel.com/200/200/abstract
+  logo: /assets/general-assembly.jpg
   url: https://generalassemb.ly/
 
 - name: Cross Campus
-  logo: http://lorempixel.com/200/200/nature
+  logo: /assets/cross-campus.png
   url: http://www.crosscamp.us/
   
 - name: Santa Monica Chamber
-  logo: http://lorempixel.com/200/200/business
+  logo: /assets/chamber-of-commerce.jpg
   url: http://smchamber.com/
   
 - name: Expert Dojo
-  logo: http://lorempixel.com/200/200/technics
+  logo: /assets/expert-dojo.png
   url: http://expertdojo.com/
   
 - name: City of Santa Monica
-  logo: http://lorempixel.com/200/200/animals
+  logo: /assets/citylogo.png
   url: http://www.smgov.net
+  
+- name: WeWork
+  logo: http://lorempixel.com/200/200/technics
+  url: https://www.wework.com/

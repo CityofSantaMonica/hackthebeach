@@ -2,7 +2,11 @@
   {% for partner in site.data.partners %}
   <div class="col-sm-4 member">
     <h3><a href="{{ partner.url }}" target="_blank">{{ partner.name }}</a></h3>
-    <img class="img-circle" alt="{{ partner.name }} logo" src="{{ partner.logo }}" />
+    {% assign logo = partner.logo %}
+    {% if logo | slice: 0 == "/" %}
+      {% assign logo = logo | prepend: site.baseurl %}
+    {% endif %}
+    <img class="" alt="{{ partner.name }} logo" src="{{ logo }}" />
     <p>{{ partner.blurb }}</p>
   </div>
   {% endfor %}
