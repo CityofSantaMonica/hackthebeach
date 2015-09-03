@@ -23,5 +23,5 @@
   url: http://www.smgov.net
   
 - name: WeWork
-  logo: http://lorempixel.com/200/200/technics
+  logo: /assets/wework.png
   url: https://www.wework.com/
