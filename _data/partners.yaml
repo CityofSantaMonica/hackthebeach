@@ -1,3 +1,11 @@
+- name: City of Santa Monica
+  logo: /assets/citylogo.png
+  url: http://www.smgov.net
+
+- name: Santa Monica Chamber
+  logo: /assets/chamber-of-commerce.jpg
+  url: http://smchamber.com/
+
 - name: General Assembly
   logo: /assets/general-assembly.jpg
   url: https://generalassemb.ly/
@@ -10,18 +18,14 @@
   logo: /assets/cross-campus.png
   url: http://www.crosscamp.us/
 
-- name: WeWork
-  logo: /assets/wework.png
-  url: https://www.wework.com/
-  
-- name: Santa Monica Chamber
-  logo: /assets/chamber-of-commerce.jpg
-  url: http://smchamber.com/
+- name: Santa Monica Pier
+  logo: /assets/santa-monica-pier.png
+  url: http://santamonicapier.org/
 
 - name: Downtown Santa Monica
   logo: /assets/downtown-sm.jpg
   url: http://www.downtownsm.com/
 
-- name: City of Santa Monica
-  logo: /assets/citylogo.png
-  url: http://www.smgov.net
+- name: WeWork
+  logo: /assets/wework.png
+  url: https://www.wework.com/
