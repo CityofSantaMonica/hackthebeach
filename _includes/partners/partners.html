@@ -1,15 +1,13 @@
 <div class="row partners">
   {% for partner in site.data.partners %}
-  <div class="col-sm-4 member">
-    <h3><a href="{{ partner.url }}" target="_blank">{{ partner.name }}</a></h3>
+  <div class="col-sm-4 partner">
     {% assign logo = partner.logo %}
     {% if logo | split: '' | first == "/" %}
       {% assign logo = logo | prepend: site.baseurl %}
     {% endif %}
     <a href="{{ partner.url }}" target="_blank">
-      <img class="" alt="{{ partner.name }} logo" src="{{ logo }}" />
+      <img class="" alt="{{ partner.name }}" src="{{ logo }}" />
     </a>
-    <p>{{ partner.blurb }}</p>
   </div>
   {% endfor %}
 </div>
