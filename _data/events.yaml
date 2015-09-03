@@ -1,30 +1,33 @@
-- name: Bootstrap Santa Monica Kickoff
-  date: 2015-10-01
+- name: "Hack the Beach: The Contest - Kickoff and Happy Hour"
+  date: 2015-10-06
   start: 5:30pm
   end: 8:00pm
-  description: Learn about the contest, meet potential team members, Q&A with City staff and tech leaders.
+  description: Learn about The Contest, meet potential team members, Q&A with City staff and tech leaders.
+  signup: https://www.google.com
   location:
      name: General Assembly
      url: https://generalassemb.ly/
      address: 1520 2nd Street
      map: https://www.google.com/maps/place/General+Assembly+Los+Angeles
   
-- name: Bootstrap Santa Monica Pitch Night
+- name: Cloud Impact Conference
   date: 2015-10-09
   start: 4:00pm
   end: 6:00pm
   description: Something something something bla bla bla
+  signup: https://www.google.com
   location:
     name: Expert Dojo
     url: http://expertdojo.com/
     address: Santa Monica Place Unit 308 (3rd Floor)
     map: https://www.google.com/maps/place/Santa+Monica+Place,+395+Santa+Monica+Pier,+Santa+Monica,+CA+90401
     
-- name: Hack the Beach Happy Hour
+- name: "Hack the Beach: The Happy Hour"
   date: 2015-11-01
   start: 5:00pm
   end: 7:00pm
   description: Mix and Mingle with drinks
+  signup: https://www.google.com
   location:
     name: Somewhere that serves
     url: http://yelp.com
