@@ -1,27 +1,27 @@
-- name: Downtown Santa Monica
-  logo: /assets/downtown-sm.jpg
-  url: http://www.downtownsm.com/
-
 - name: General Assembly
   logo: /assets/general-assembly.jpg
   url: https://generalassemb.ly/
 
+- name: Expert Dojo
+  logo: /assets/expert-dojo.png
+  url: http://expertdojo.com/
+
 - name: Cross Campus
   logo: /assets/cross-campus.png
   url: http://www.crosscamp.us/
+
+- name: WeWork
+  logo: /assets/wework.png
+  url: https://www.wework.com/
   
 - name: Santa Monica Chamber
   logo: /assets/chamber-of-commerce.jpg
   url: http://smchamber.com/
-  
-- name: Expert Dojo
-  logo: /assets/expert-dojo.png
-  url: http://expertdojo.com/
-  
+
+- name: Downtown Santa Monica
+  logo: /assets/downtown-sm.jpg
+  url: http://www.downtownsm.com/
+
 - name: City of Santa Monica
   logo: /assets/citylogo.png
   url: http://www.smgov.net
-  
-- name: WeWork
-  logo: /assets/wework.png
-  url: https://www.wework.com/
