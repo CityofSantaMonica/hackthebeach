@@ -10,6 +10,11 @@
     <br />
     <a href="{{ event.location.map }}" target="_blank">{{ event.location.address }}</a>
     </p>
+    {% if event.signup %}
+    <p>
+      {% include templates/button.html text="REGISTER NOW" href=event.signup target="_blank" class="btn-default btn-sm" %}
+    </p>
+    {% endif %}
   </div>
   {% endfor %}
 </div>

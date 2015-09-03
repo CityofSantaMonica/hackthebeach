@@ -3,19 +3,18 @@
   start: 5:30pm
   end: 8:00pm
   description: Learn about The Contest, meet potential team members, Q&A with City staff and tech leaders.
-  signup: https://www.google.com
   location:
      name: General Assembly
      url: https://generalassemb.ly/
      address: 1520 2nd Street
      map: https://www.google.com/maps/place/General+Assembly+Los+Angeles
   
-- name: Cloud Impact Conference
+- name: "Hack the Beach: The Contest - Pitch Night"
   date: 2015-10-09
   start: 4:00pm
   end: 6:00pm
   description: Something something something bla bla bla
-  signup: https://www.google.com
+  signup: https://www.eventbrite.com/e/hack-the-beach-the-contest-pitch-night-tickets-18457123754
   location:
     name: Expert Dojo
     url: http://expertdojo.com/
@@ -27,7 +26,6 @@
   start: 5:00pm
   end: 7:00pm
   description: Mix and Mingle with drinks
-  signup: https://www.google.com
   location:
     name: Somewhere that serves
     url: http://yelp.com
