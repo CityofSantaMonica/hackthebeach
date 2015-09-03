@@ -3,10 +3,12 @@
   <div class="col-sm-4 member">
     <h3><a href="{{ partner.url }}" target="_blank">{{ partner.name }}</a></h3>
     {% assign logo = partner.logo %}
-    {% if logo | slice: 0 == "/" %}
+    {% if logo | split: '' | first == "/" %}
       {% assign logo = logo | prepend: site.baseurl %}
     {% endif %}
-    <img class="" alt="{{ partner.name }} logo" src="{{ logo }}" />
+    <a href="{{ partner.url }}" target="_blank">
+      <img class="" alt="{{ partner.name }} logo" src="{{ logo }}" />
+    </a>
     <p>{{ partner.blurb }}</p>
   </div>
   {% endfor %}

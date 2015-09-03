@@ -3,7 +3,7 @@
   <div class="col-sm-4 col-md-3 member">
     <h3><a href="{{ member.url }}" target="_blank">{{ member.name }}</a></h3>
     {% assign logo = member.logo %}
-    {% if logo | slice: 0 == "/" %}
+    {% if logo | split: '' | first == "/" %}
       {% assign logo = logo | prepend: site.baseurl %}
     {% endif %}
     <img class="img-circle img-responsive" alt="{{ member.name }} headshot" src="{{ logo }}" />

@@ -10,7 +10,7 @@
   {% assign target = "_self" %}
 {% endif %}
 
-{% if href | slice: 0 == "/" %}
+{% if href | split: '' | first == "/" %}
   {% assign href = href | prepend: site.baseurl %}
   {% assign target = "_self" %}
 {% endif %}
