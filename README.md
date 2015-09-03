@@ -30,7 +30,7 @@ Linux (e.g. Ubuntu) or OS X, and so do we.
 ### Project Layout
 
 The standard [Jekyll structure](http://jekyllrb.com/docs/structure/) is used. We opted for the
-[Named folders containing index files](http://jekyllrb.com/docs/pages/#named-folders-containing-index-html-files)
+[Named HTML files with permalinks](http://jekyllrb.com/docs/pages/#named-html-files)
 approach to keep page URLs clean.
 
 #### Partial Templates
