@@ -7,13 +7,13 @@
 - name: Becky Feldman
   organization: Cross Campus
   title: Director of Events and Programming
-  url: https://twitter.com/govaffairs
+  url: https://twitter.com/crosscampus
   logo: /assets/becky-feldman.jpg
   
 - name: Natalie Howard
   organization: General Assembly
   title: LA Campus Marketing Producer
-  url: https://twitter.com/govaffairs
+  url: https://twitter.com/GA_LA
   logo: /assets/natalie-howard.jpg
   
 - name: Kegan Maher
@@ -31,35 +31,35 @@
 - name: Becky Yang
   organization: WeWork
   title: Expansion Lead
-  url: http://www.wework.com
+  url: https://twitter.com/wework
   logo: /assets/becky-yang.jpg
   
 - name: Collette Hanna
   organization: Downtown Santa Monica
   title: External Affairs Manager
-  url: http://www.downtownsm.com
-  logo: http://lorempixel.com/200/200/people
+  url: https://twitter.com/DTSantaMonica
+  logo: /assets/collette-hanna.jpeg
   
 - name: Danielle Noble
   organization: City of Santa Monica
   title: Deputy City Manager
-  url: http://www.smgov.net
-  logo: http://lorempixel.com/200/200/people
+  url: https://twitter.com/santamonicacity
+  logo: /assets/danielle-noble.jpg
   
 - name: Brian MacMahon
   organization: Expert Dojo
   title: Head Honcho
-  url: http://www.smgov.net
+  url: https://twitter.com/Expert_Dojo
   logo: /assets/brian-macmahon.jpg
   
 - name: Jay Farrand
   organization: Santa Monica Pier
   title: Executive Director & Administrator
-  url: http://santamonicapier.org/
+  url: https://twitter.com/SantaMonicaPier
   logo: /assets/jay-farrand.jpg
   
 - name: Jenny Hackelman
   organization: Santa Monica Chamber of Commerce
   title: Government Affairs Intern
   url: https://twitter.com/govaffairs
-  logo:  http://lorempixel.com/200/200/people
+  logo: /assets/jenny-hackelman.jpg
