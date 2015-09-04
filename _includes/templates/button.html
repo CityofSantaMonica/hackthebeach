@@ -10,11 +10,6 @@
   {% assign target = "_self" %}
 {% endif %}
 
-{% if href | split: '' | first == "/" %}
-  {% assign href = href | prepend: site.baseurl %}
-  {% assign target = "_self" %}
-{% endif %}
-
 {% if include.class %}
   {% assign class = include.class | prepend: "btn " %}
 {% else %}
