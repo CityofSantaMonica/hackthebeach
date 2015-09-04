@@ -2,7 +2,7 @@
   {% for challenge in site.data.challenges %}
   <div class="col-md-4 challenge">
     <h2 class="text-center">{{ challenge.topic }}</h2>
-    <img class="img-responsive img-rounded" src="{{ challenge.logo }}" />
+    <img class="img-responsive img-rounded" src="{{ challenge.logo }}" alt="{{ challenge.topic }}" />
     {{ challenge.blurb }}
   </div>
   {% endfor %}
