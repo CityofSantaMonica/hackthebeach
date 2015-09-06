@@ -1,6 +1,6 @@
 # Hack the Beach
 
-Presented by the City of Santa Monica
+Presented by the City of Santa Monica and the Santa Monica Chamber of Commerce.
 
 ## Development
 
