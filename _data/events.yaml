@@ -9,11 +9,11 @@
      address: 1520 2nd Street
      map: https://www.google.com/maps/place/General+Assembly+Los+Angeles
   
-- name: "Hack the Beach: The Contest Pitch Night"
+- name: "Hack the Beach: The Brainstorm"
   date: 2015-10-09
-  start: 4:00pm
-  end: 6:00pm
-  description: Something something something bla bla bla
+  start: 10:00pm
+  end: 3:00pm
+  description: Have free reign to work within your groups, or mingle with other groups as you brainstorm ideas for what your great idea will ultimatley become. 
   signup: https://www.eventbrite.com/e/hack-the-beach-the-contest-pitch-night-tickets-18457123754
   location:
     name: Expert Dojo
@@ -21,10 +21,13 @@
     address: Santa Monica Place Unit 308 (3rd Floor)
     map: https://www.google.com/maps/place/Santa+Monica+Place,+395+Santa+Monica+Pier,+Santa+Monica,+CA+90401
     
-- name: "Hack the Beach: The Happy Hour"
+- name: "Hack the Beach: The Winning Entries & Happy Hour"
   date: 2015-11-01
-  start: 5:00pm
-  end: 7:00pm
-  description: Mix and Mingle with drinks
+  start: 6:00pm
+  end: 8:00pm
+  description: Happy hour event for mixing and mingling, and formal announcement of which proposals will be moving forward in The Contest. 
   location:
-    name: TBA in Santa Monica
+    name: Cross Campus
+    url: http://crosscampus.com
+    address: 929 Colorado Ave, Santa Monica, CA 90401
+    map: https://www.google.com/maps/place/Cross+Campus/@34.0183573,-118.4869185,17z/data=!3m1!4b1!4m2!3m1!1s0x80c2a4cd0f5bc17f:0xcfc9ecde260fbea
