@@ -10,7 +10,6 @@
   .content {
     background: rgba(0, 0, 0, 0.5);
     padding: #{$spacer};
-    padding-bottom: 0;
     margin-bottom: #{$spacer};
   }
   
@@ -21,6 +20,15 @@
 
   p {
     font-size: 1.2em;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+  }
+
+  .pull-left,
+  .pull-right {
+    margin-bottom: 0;
   }
   
   @media #{$screen-sm} {
