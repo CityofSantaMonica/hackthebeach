@@ -25,11 +25,6 @@
         margin-bottom: 0;
       }
   }
-
-  .pull-left,
-  .pull-right {
-    margin-bottom: 0;
-  }
   
   @media #{$screen-sm} {
     padding-bottom: #{$spacer * 2};
