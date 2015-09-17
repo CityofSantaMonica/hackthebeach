@@ -10,7 +10,7 @@
      address: 1520 2nd Street
      map: https://www.google.com/maps/place/General+Assembly+Los+Angeles
   
-- name: "Hack the Beach: The Starting Line"
+- name: "Hack the Beach: The Contest Starting Line"
   date: 2015-10-09
   start: 10:00am
   end: 1:00pm
@@ -22,7 +22,7 @@
     address: Santa Monica Place Unit 308 (3rd Floor)
     map: https://www.google.com/maps/place/Santa+Monica+Place,+395+Santa+Monica+Pier,+Santa+Monica,+CA+90401
     
-- name: "Hack the Beach: The Finalists"
+- name: "Hack the Beach: The Contest Finalists"
   date: 2015-11-03
   start: 6:00pm
   end: 8:00pm
