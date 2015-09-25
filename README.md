@@ -45,8 +45,11 @@ For example, `_includes/templates/button.html` defines the reusable button compo
        {% include templates/button.html href="http://example.com" text="click me" %}
     </div>
 
-Sections of a particular `index.html` page are rendered using the `_includes/templates/section.html` template, the content
+Sections of a particular page are rendered using the `_includes/templates/section.html` template, the content
 of which is stored in the corresponding folder under `_includes` (e.g. `_includes/index` for the homepage partial content)
+
+Pages may also specify jumbotron content using the `jumbotron` front-matter with a path to the partial content (relative to the `_includes/` directory). 
+See `index.html` for an example. 
 
 #### `_data`
 
