@@ -1,5 +1,5 @@
 - name: City of Santa Monica
-  logo: /assets/citylogo.png
+  logo: /common/img/city-logo.png
   url: http://www.smgov.net
 
 - name: Santa Monica Chamber
