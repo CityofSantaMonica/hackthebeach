@@ -1,0 +1,60 @@
+<div class="row">
+  <div class="col-md-6">
+    <div class="panel panel-default">
+      <div class="panel-heading"><h3>General</h3></div>
+      <div class="panel-body">
+        <div class="list-group">
+        {% for item in site.data.resources %}
+        {% if item.category == 'general' %}
+        <a href="{{ item.href }}" target="_blank" class="list-group-item">{{ item.text }}</a>
+        {% endif %}
+        {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="panel panel-default">
+      <div class="panel-heading"><h3>Civic Engagement</h3></div>
+      <div class="panel-body">
+        <div class="list-group">
+        {% for item in site.data.resources %}
+        {% if item.category == 'civic' %}
+        <a href="{{ item.href }}" target="_blank" class="list-group-item">{{ item.text }}</a>
+        {% endif %}
+        {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-6">
+    <div class="panel panel-default">
+      <div class="panel-heading"><h3>Community</h3></div>
+      <div class="panel-body">
+        <div class="list-group">
+        {% for item in site.data.resources %}
+        {% if item.category == 'community' %}
+        <a href="{{ item.href }}" target="_blank" class="list-group-item">{{ item.text }}</a>
+        {% endif %}
+        {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="panel panel-default">
+      <div class="panel-heading"><h3>Mobility</h3></div>
+      <div class="panel-body">
+        <div class="list-group">
+        {% for item in site.data.resources %}
+        {% if item.category == 'mobility' %}
+        <a href="{{ item.href }}" target="_blank" class="list-group-item">{{ item.text }}</a>
+        {% endif %}
+        {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
