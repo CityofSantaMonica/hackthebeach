@@ -1,0 +1,5 @@
+<div class="panel-group" id="faqs" role="tablist" aria-multiselectable="true">
+{% for faq in site.data.faqs %}
+{% include templates/faq.html question=faq.question answer=faq.answer index=forloop.index parent="faqs" %}
+{% endfor %}
+</div>
