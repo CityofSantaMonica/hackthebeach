@@ -5,11 +5,15 @@
     <p>{{ event.description }}</p>
     <p><span>{{ event.date | date: '%b %d %Y' }}</span>
     <span>{{ event.start }} to {{ event.end }}</span></p>
+    {% if event.location %}
     <p>
       <a href="{{ event.location.url }}" target="_blank">{{ event.location.name }}</a>
-    <br />
-    <a href="{{ event.location.map }}" target="_blank">{{ event.location.address }}</a>
+      <br />
+      <a href="{{ event.location.map }}" target="_blank">{{ event.location.address }}</a>
     </p>
+    {% else %}
+    <p>Location TBD</p>
+    {% endif %}
     {% if event.signup %}
     <p>
       {% include templates/button.html text="REGISTER NOW" href=event.signup target="_blank" class="btn-default btn-sm" %}

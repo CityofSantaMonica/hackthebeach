@@ -1,15 +1,3 @@
-- name: "Hack the Beach: The Contest Kickoff"
-  date: 2015-10-06
-  start: 6:00pm
-  end: 8:00pm
-  description: Learn about The Contest, meet potential team members, Q&A with City staff and tech leaders.
-  signup: http://www.eventbrite.com/e/hack-the-beach-contest-launch-tickets-18457743608?aff=es2
-  location:
-     name: General Assembly
-     url: https://generalassemb.ly/
-     address: 1520 2nd Street
-     map: https://www.google.com/maps/place/General+Assembly+Los+Angeles
-  
 - name: "Hack the Beach: The Contest Starting Line"
   date: 2015-10-09
   start: 10:00am
@@ -32,3 +20,9 @@
     url: http://crosscampus.com
     address: 929 Colorado Ave, Santa Monica, CA 90401
     map: https://www.google.com/maps/place/Cross+Campus/@34.0183573,-118.4869185,17z/data=!3m1!4b1!4m2!3m1!1s0x80c2a4cd0f5bc17f:0xcfc9ecde260fbea
+    
+- name: "Hack the Beach: Holiday Happy Hour"
+  date: 2015-12-01
+  start: 6:00pm
+  end: 8:00pm
+  description: Happy hour event for mixing and mingling.
