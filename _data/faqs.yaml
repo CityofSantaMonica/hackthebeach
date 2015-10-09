@@ -1,11 +1,11 @@
 - question: "Where can I find data sources already released by the City of Santa Monica?"
-  answer: "Check <a href='http://open.smgov.net' target='_blank'>http://open.smgov.net</a> - note that each of the tiles contains links to larger repisotories with multiple datasets. You may directly access our largest data repositories via <a href='https://data.smgov.net' target='_blank'>https://data.smgov.net</a> and <a href='https://github.com/CityofSantaMonica' target='_blank'>https://github.com/CityofSantaMonica</a>."
+  answer: "Check <a href='http://open.smgov.net' target='_blank'>http://open.smgov.net</a> - note that each of the tiles contains links to larger repositories with multiple datasets.<br />You may directly access our largest data repositories via <a href='https://data.smgov.net' target='_blank'>https://data.smgov.net</a> and <a href='https://github.com/CityofSantaMonica' target='_blank'>https://github.com/CityofSantaMonica</a>."
   
 - question: "May I submit a hardware solution for Hack the Beach: The Contest?"
   answer: "Yes - solutions of all types are welcomed so long as they: <ol><li>incorporate technology in some way</li><li>address one of the three stated goals (community, mobility, and civic engagement)</li><li>meet the judging criteria (viability, value, and growth outlook)</li></ul>"
   
 - question: "What type of solutions is the City looking for?"
-  answer: "We encourage all participants to not focus on what the City is looking for, but rather to develop products which the public, such your neighbors, friends, colleagues, and yourself will find beneficial. If you are interested about City staff priorities, we encourage you to attend any of our upcoming HTB events to interact with subject matter experts from various City departments."
+  answer: "We encourage all participants to not focus on what the City is looking for, but rather to develop products which the public, such your neighbors, friends, colleagues, and yourself will find beneficial.<br/>If you are interested about City staff priorities, we encourage you to attend any of our upcoming HTB events to interact with subject matter experts from various City departments."
   
 - question: "My company/team is not based in Santa Monica, may we participate?"
   answer: "Yes."
@@ -17,7 +17,7 @@
   answer: "No, although our preference is for submissions to be open source to facilitate growth via the community. See <a href='http://choosealicense.com' target='_blank'>http://choosealicense.com</a> for more information on open source licensing."
   
 - question: "I’m interested in participating, but I don’t have a team or an idea; can I join up with other teams?"
-  answer: "Yes, we are now in the process of setting up a matchmaking system."
+  answer: "Yes, see our <a href='https://docs.google.com/a/hackthebeach.com/forms/d/1-juW7_pCly24M-kwTk1RSTOqlro1DSgJv4230VODiLw/viewform' target='_blank'>Team Matchmaker</a>."
   
 - question: "How can I suggest a new dataset be posted online?"
   answer: "Please use <a href='https://data.smgov.net/nominate' target='_blank'>https://data.smgov.net/nominate</a> to suggest new datasets."
