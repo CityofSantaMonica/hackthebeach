@@ -1,3 +1,15 @@
 <h1>We're Here to Help!</h1>
 
-<p>Contact us via email at <a href='mailto:info@hackthebeach.com'>info@hackthebeach.com</a><br />Contact us via Twitter <a href='https://twitter.com/hackthebeach' target='_blank'>@hackthebeach</a><br />Contact us via the <a href='#disqus_thread'>Disqus feature</a> on this website</p>
+<p>Contact us with your questions, ideas, and comments.</p>
+
+<div clas="row">
+  <div class="col-md-4">      
+    {% include templates/button.html text="@hackthebeach" href="https://twitter.com/hackthebeach" target="_blank" icon="twitter" %}
+  </div>
+  <div class="col-md-4">
+    {% include templates/button.html text="info@hackthebeach.com" href="mailto:info@hackthebeach.com" icon="mail" %}
+  </div>
+  <div class="col-md-4">
+    {% include templates/button.html text="Disqus feature" href="#disqus_thread" icon="disqus" %}
+  </div>
+</div>
