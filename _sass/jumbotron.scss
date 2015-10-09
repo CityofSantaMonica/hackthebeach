@@ -27,8 +27,10 @@
       }
   }
   
-  .left {
-     margin-bottom: #{$spacer * 2};
+  .row {
+    > div {
+      margin-bottom: #{$spacer / 2};
+    }
   }
   
   @media #{$screen-sm} {
@@ -38,13 +40,10 @@
       margin-top: #{$spacer * 2};
     }
     
-    .left { 
-      float: left;
-      margin-bottom: 0;
-    }
-    
-    .right { 
-      float: right;
+    .row {
+      > div {
+        margin-bottom: 0;
+      }
     }
   }
   
