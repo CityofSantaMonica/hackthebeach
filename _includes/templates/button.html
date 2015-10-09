@@ -16,10 +16,23 @@
   {% assign class = "btn btn-default btn-lg" %}
 {% endif %}
 
+{% if include.icon %}
+  {% assign pos = "right" %}
+  {% if include.icon-left %}
+    {% assign pos = "left" %}
+  {% endif %}
+{% endif %}
+
 <a href="{{ href }}"
    target="{{ target }}"
    class="{{ class }}">
-  {{ include.text }} {% if include.icon %}{% include templates/icon.html icon=include.icon fixed=true %}{% endif %}
+  {% if pos == "left" %}
+  {% include templates/icon.html icon=include.icon fixed=true %}
+  {% endif %}
+  {{ include.text }}
+  {% if pos == "right" %}
+  {% include templates/icon.html icon=include.icon fixed=true %}
+  {% endif %}
 </a>
 
 {% assign href = null %}
@@ -27,3 +40,4 @@
 {% assign local = null %}
 {% assign class = null %}
 {% assign icon = null %}
+{% assign pos = null %}
