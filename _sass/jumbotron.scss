@@ -26,12 +26,25 @@
       }
   }
   
+  .left {
+     margin-bottom: #{$spacer * 2};
+  }
+  
   @media #{$screen-sm} {
     padding-bottom: #{$spacer * 2};
     
-     .content {
-       margin-top: #{$spacer * 2};
-     }
+    .content {
+      margin-top: #{$spacer * 2};
+    }
+    
+    .left { 
+      float: left;
+      margin-bottom: 0;
+    }
+    
+    .right { 
+      float: right;
+    }
   }
   
   @media #{$screen-md} {
