@@ -1,23 +1,23 @@
-- name: "Hack the Beach: The Contest Finalists"
-  date: 2015-11-03
-  start: 6:00pm
-  end: 8:00pm
-  description: Happy hour event for mixing and mingling, and formal announcement of which proposals will be moving forward in The Contest. 
-  signup: https://www.eventbrite.com/e/hack-the-beach-the-contest-finalists-tickets-19008127822
-  location:
-    name: Cross Campus
-    url: http://crosscampus.com
-    address: 929 Colorado Ave, Santa Monica, CA 90401
-    map: https://www.google.com/maps/place/Cross+Campus/@34.0183573,-118.4869185,17z/data=!3m1!4b1!4m2!3m1!1s0x80c2a4cd0f5bc17f:0xcfc9ecde260fbea
-    
+
 - name: "Hack the Beach: Holiday Happy Hour"
   date: 2015-12-01
   start: 6:00pm
   end: 8:00pm
   description: Happy hour event for mixing and mingling.
   
-- name: "Hack the Beach: The Contest Judging"
+- name: "Hack the Beach: The Finish Line"
   date: 2016-01-27
   start: 6:00pm
   end: 8:00pm
   description: Happy hour event where the finalists will present their projects to the judges.
+  
+  - name: "State of the City - Contest Winner Revealed"
+  date: 2016-01-29
+  start: 7:00am
+  end: 9:30am
+  description: The winning product will be revealed at the 2016 State of the City event. 
+  location:
+    name: SGI-USA
+    url: http://crosscampus.com
+    address: 606 Wilshire Blvd., Santa Monica, CA 90401
+    map: https://www.google.com/maps/place/Cross+Campus/@34.0183573,-118.4869185,17z/data=!3m1!4b1!4m2!3m1!1s0x80c2a4cd0f5bc17f:0xcfc9ecde260fbea
