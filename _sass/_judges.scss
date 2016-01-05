@@ -1,0 +1,47 @@
+.judge {
+    margin-bottom: $spacer;
+
+    .headshot {
+        text-align: center;
+
+        img {
+            border-radius: 50%;
+            max-width: 150px;
+
+            #{screen-sm} {
+                max-width: 100%;
+            }
+        }
+    }
+
+    .bio {
+        overflow: hidden;
+        position: relative;
+
+        h3 {
+            margin: {
+                bottom: 5px;
+                top: 0;
+            }
+        }
+    }
+}
+
+.readless,
+.readmore {
+    cursor: pointer;
+    display: none;
+}
+
+.readmore {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    content: '';
+    height: 60px;
+    position: absolute;
+    top: 160px;
+    width: 100%;
+}
+
+.readless {
+    text-align: center;
+}

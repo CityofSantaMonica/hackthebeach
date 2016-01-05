@@ -1,0 +1,22 @@
+<div class="rsorter">
+    {% for judge in site.judges %}
+        {% assign slugified = judge.name | replace: ' ', '-' | downcase %}
+        <div class="judge row sortable">
+            <div class="headshot col-md-2">
+                <img src="/assets/judges/{{ slugified }}.jpg" alt="{{ judge.name }}'s headshot'">
+            </div>
+
+            <div class="bio col-md-10 extendable-content" id="{{ slugified }}">
+                <h3 class="name">{{ judge.name }}</h3>
+                <p class="role">
+                    <em>{{ judge.role }}, {{ judge.company }}</em>
+                </p>
+                <article>{{ judge.content }}</article>
+                <div class="readless" data-target="#{{ slugified }}">
+                    <i class="fi fi-angles-up"></i>
+                </div>
+                <div class="readmore" data-target="#{{ slugified }}"></div>
+            </div>
+        </div>
+    {% endfor %}
+</div>

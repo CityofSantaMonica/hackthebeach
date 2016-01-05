@@ -14,7 +14,7 @@
     <meta property="og:image" content="http://hackthebeach.com/assets/kickoff.png" />
     <meta property="og:image" content="http://hackthebeach.com/assets/starting-line.png" />
     <meta property="og:image" content="http://hackthebeach.com/assets/finalists.png" />
-    
+
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
@@ -39,13 +39,13 @@
 
   <body>
     {% include navbar.html %}
-    
+
     {% include templates/jumbotron.html content=page.jumbotron %}
-    
+
     {{ content }}
 
     {% include templates/section.html header="Talk About It" content="disqus.html" %}
-    
+
     <div class="container">
       <hr>
       <footer>
@@ -60,6 +60,7 @@
 
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
     {% if page.js %}
     <script src="{{ site.baseurl }}/js/{{ page.js }}"></script>
     {% endif %}
