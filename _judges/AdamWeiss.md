@@ -10,4 +10,4 @@ Prior to joining Cornerstone, Adam practiced law at Lurie, Zepeda, Schmalz & Hog
 
 Adam serves as President of Shalom Institute, and sits on the boards of the Santa Monica Chamber of Commerce and American Jewish Committee.
 
-Weiss holds a J.D. from UCLA School of Law and a B.A. in Economics and Political Science from Stanford University.
+Adam holds a J.D. from UCLA School of Law and a B.A. in Economics and Political Science from Stanford University.
