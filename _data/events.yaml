@@ -1,15 +1,14 @@
 
-- name: "Hack the Beach: Holiday Happy Hour"
-  date: 2015-12-01
-  start: 6:00pm
-  end: 8:00pm
-  description: Happy hour event for mixing and mingling.
-  
 - name: "Hack the Beach: The Finish Line"
-  date: 2016-01-27
+  date: 2016-01-25
   start: 6:00pm
   end: 8:00pm
-  description: Happy hour event where the finalists will present their projects to the judges.
+  description: This is it! The finalists will present their projects to the judges.
+  location:
+    name: WeWork
+    url: https://www.wework.com/locations/los-angeles/santa-monica
+    address: 520 Broadway, Santa Monica, CA 90401
+    map: https://www.google.com/maps/place/WeWork/@34.0161117,-118.4939124,17z/data=!4m6!1m3!3m2!1s0x80c2a4cdf88f9605:0x3d7d1fd2518b8c14!2sWeWork!3m1!1s0x80c2a4cdf88f9605:0x3d7d1fd2518b8c14
   
 - name: "State of the City - Contest Winner Revealed"
   date: 2016-01-29
@@ -18,6 +17,6 @@
   description: The winning product will be revealed at the 2016 State of the City event. 
   location:
     name: SGI-USA
-    url: http://crosscampus.com
+    url: http://sgi-usa.org/
     address: 606 Wilshire Blvd., Santa Monica, CA 90401
-    map: https://www.google.com/maps/place/Cross+Campus/@34.0183573,-118.4869185,17z/data=!3m1!4b1!4m2!3m1!1s0x80c2a4cd0f5bc17f:0xcfc9ecde260fbea
+    map: https://www.google.com/maps/place/606+Wilshire+Blvd,+Santa+Monica,+CA+90401/@34.0205589,-118.4979288,17z/data=!3m1!4b1!4m2!3m1!1s0x80c2a4c8ce37f2e7:0x918d68e31aa2b5e4
