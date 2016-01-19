@@ -12,12 +12,13 @@
     map: https://www.google.com/maps/place/WeWork/@34.0161117,-118.4939124,17z/data=!4m6!1m3!3m2!1s0x80c2a4cdf88f9605:0x3d7d1fd2518b8c14!2sWeWork!3m1!1s0x80c2a4cdf88f9605:0x3d7d1fd2518b8c14
   
 - name: "State of the City - Contest Winner Revealed"
-  date: 2016-01-29
-  start: 7:00am
-  end: 9:30am
+  date: 2016-01-28
+  start: 5:00pm
+  end: 8:00pm
   description: The winning product will be revealed at the 2016 State of the City event. 
+  signup: http://smchamber.com/sotc/
   location:
-    name: SGI-USA
+    name: SGI Auditorium
     url: http://sgi-usa.org/
-    address: 606 Wilshire Blvd., Santa Monica, CA 90401
+    address: 525 Wilshire Blvd., Santa Monica, CA 90401
     map: https://www.google.com/maps/place/606+Wilshire+Blvd,+Santa+Monica,+CA+90401/@34.0205589,-118.4979288,17z/data=!3m1!4b1!4m2!3m1!1s0x80c2a4c8ce37f2e7:0x918d68e31aa2b5e4
