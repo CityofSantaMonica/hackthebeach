@@ -6,10 +6,10 @@
   description: This is it! The finalists will present their projects to the judges.
   signup: https://www.eventbrite.com/e/hack-the-beach-the-finish-line-tickets-20120011496?aff=es2 
   location:
-    name: WeWork
-    url: https://www.wework.com/locations/los-angeles/santa-monica
-    address: 520 Broadway, Santa Monica, CA 90401
-    map: https://www.google.com/maps/place/WeWork/@34.0161117,-118.4939124,17z/data=!4m6!1m3!3m2!1s0x80c2a4cdf88f9605:0x3d7d1fd2518b8c14!2sWeWork!3m1!1s0x80c2a4cdf88f9605:0x3d7d1fd2518b8c14
+    name: General Assembly Santa Monica
+    url: https://generalassemb.ly/los-angeles
+    address: 1520 2nd Street, Santa Monica, CA 90401
+    map: https://www.google.com/maps/place/General+Assembly+Santa+Monica/@34.012982,-118.4973747,17z/data=!3m1!4b1!4m2!3m1!1s0x80c2a4d1ac9c480b:0xc4ffae91cceb94a4
   
 - name: "State of the City - Contest Winner Revealed"
   date: 2016-01-28
