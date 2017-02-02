@@ -1,24 +1,23 @@
+- name: "State of the City"
+  date: 2017-02-06
+  start: 4:30pm
+  end: 7:00pm
+  description: "Doors open at 4:30pm, program and reception runs from 5:00pm to 7:00pm."
+  signup: http://smchamber.com/sotc/
+  location:
+    name: SGI World Peace Auditorium
+    url: http://sgi-usa.org/
+    address: 525 Wilshire Blvd., Santa Monica, CA 90401
+    map: https://www.google.com/maps/place/606+Wilshire+Blvd,+Santa+Monica,+CA+90401/@34.0205589,-118.4979288,17z/data=!3m1!4b1!4m2!3m1!1s0x80c2a4c8ce37f2e7:0x918d68e31aa2b5e4
 
-- name: "Hack the Beach: The Finish Line"
-  date: 2016-01-25
-  start: 6:00pm
+- name: "2017 Launch Party"
+  date: 2017-03-02
+  start: 6:30pm
   end: 8:00pm
-  description: This is it! The finalists will present their projects to the judges.
-  signup: https://www.eventbrite.com/e/hack-the-beach-the-finish-line-tickets-20120011496?aff=es2 
+  description: Welcome Back Hackers! Come learn about all that's happening in 2017.
+  signup: #
   location:
     name: General Assembly Santa Monica
     url: https://generalassemb.ly/los-angeles
     address: 1520 2nd Street, Santa Monica, CA 90401
     map: https://www.google.com/maps/place/General+Assembly+Santa+Monica/@34.012982,-118.4973747,17z/data=!3m1!4b1!4m2!3m1!1s0x80c2a4d1ac9c480b:0xc4ffae91cceb94a4
-  
-- name: "State of the City - Contest Winner Revealed"
-  date: 2016-01-28
-  start: 4:30pm
-  end: 7:30pm
-  description: The winning product will be revealed at the 2016 State of the City event. Doors open at 4:30pm, program runs from 5:00pm to 6:30pm. A reception will be held from 6:30 to 7:30pm. 
-  signup: http://smchamber.com/sotc/
-  location:
-    name: SGI Auditorium
-    url: http://sgi-usa.org/
-    address: 525 Wilshire Blvd., Santa Monica, CA 90401
-    map: https://www.google.com/maps/place/606+Wilshire+Blvd,+Santa+Monica,+CA+90401/@34.0205589,-118.4979288,17z/data=!3m1!4b1!4m2!3m1!1s0x80c2a4c8ce37f2e7:0x918d68e31aa2b5e4
