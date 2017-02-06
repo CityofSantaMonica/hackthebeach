@@ -13,9 +13,9 @@
 - name: "2017 Launch Party"
   date: 2017-03-02
   start: 6:30pm
-  end: 8:00pm
+  end: 9:00pm
   description: Welcome Back Hackers! Come learn about all that's happening in 2017.
-  signup: #
+  signup: https://www.eventbrite.com/e/hack-the-beach-2017-kickoff-tickets-31837676347?ref=estw
   location:
     name: General Assembly Santa Monica
     url: https://generalassemb.ly/los-angeles
