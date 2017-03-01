@@ -26,6 +26,6 @@
   logo: /assets/downtown-sm.jpg
   url: http://www.downtownsm.com/
 
-- name: WeWork
-  logo: /assets/wework.png
-  url: https://www.wework.com/
+- name: HackerFund
+  logo: /assets/hacker-fund.svg
+  url: https://hacker.fund/
