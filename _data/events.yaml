@@ -1,23 +1,11 @@
-- name: "State of the City"
-  date: 2017-02-06
-  start: 4:30pm
-  end: 7:00pm
-  description: "Doors open at 4:30pm, program and reception runs from 5:00pm to 7:00pm."
-  signup: http://smchamber.com/sotc/
-  location:
-    name: SGI World Peace Auditorium
-    url: http://sgi-usa.org/
-    address: 525 Wilshire Blvd., Santa Monica, CA 90401
-    map: https://www.google.com/maps/place/606+Wilshire+Blvd,+Santa+Monica,+CA+90401/@34.0205589,-118.4979288,17z/data=!3m1!4b1!4m2!3m1!1s0x80c2a4c8ce37f2e7:0x918d68e31aa2b5e4
-
-- name: "2017 Launch Party"
-  date: 2017-03-02
+- name: "Hack the Beach: The Contest - 2017 Kickoff"
+  date: 2017-07-06
   start: 6:30pm
   end: 9:00pm
-  description: Welcome Back Hackers! Come learn about all that's happening in 2017.
-  signup: https://www.eventbrite.com/e/hack-the-beach-2017-kickoff-tickets-31837676347?ref=estw
+  description: Do you have a great idea about how to make Santa Monica better? Do you want to build exciting technology for cities? Join us on Thursday, July 6 at 6:30pm for the Kickoff of Hack the Beach the Contest 2017! We'll explain the details of this years program and will launch the contest application.
+  signup: https://www.eventbrite.com/e/hack-the-beach-the-contest-kickoff-2017-tickets-35222990914?aff=es2
   location:
-    name: General Assembly Santa Monica
-    url: https://generalassemb.ly/los-angeles
-    address: 1520 2nd Street, Santa Monica, CA 90401
-    map: https://www.google.com/maps/place/General+Assembly+Santa+Monica/@34.012982,-118.4973747,17z/data=!3m1!4b1!4m2!3m1!1s0x80c2a4d1ac9c480b:0xc4ffae91cceb94a4
+    name: Expert Dojo
+    url: https://expertdojo.com/
+    address: 395 Santa Monica Place (3rd Floor), Santa Monica, CA 90401
+    map: https://www.google.com/maps?espv=2&q=expert+dojo+santa+monica&bav=on.2,or.&biw=1910&bih=1035&dpr=1&ion=1&um=1&ie=UTF-8&sa=X&ved=0ahUKEwjm3tXxpMvUAhUGymMKHfiXDIYQ_AUIBigB
