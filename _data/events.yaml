@@ -1,4 +1,4 @@
-- name: "The Contest: 2017 Kickoff"
+- name: "The Contest: Kickoff"
   date: 2017-07-06
   start: 6:30pm
   end: 9:00pm
@@ -8,3 +8,6 @@
     url: https://expertdojo.com/
     address: 395 Santa Monica Place (3rd Floor)
     map: https://www.google.com/maps?espv=2&q=expert+dojo+santa+monica&bav=on.2,or.&biw=1910&bih=1035&dpr=1&ion=1&um=1&ie=UTF-8&sa=X&ved=0ahUKEwjm3tXxpMvUAhUGymMKHfiXDIYQ_AUIBigB
+
+- name: "The Contest: Inside Edge"
+  description: Meet subject matter experts from each of the design challenge areas. This is your opportunity to gain an inside edge by crafting some or part of your pitch and project to speak to real issues faced by City leaders. August 2017, exact date TBD.
