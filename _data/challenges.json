@@ -2,17 +2,17 @@
     "2015-2016": [
     {
       "topic": "Community",
-      "logo": "/assets/community.jpg",
+      "logo": "/assets/2015-2016/community.jpg",
       "blurb": "<p>Santa Monica is a diverse landscape of over 90,000 residents and hundreds of thousands more who come here for business and pleasure.</p><p>Maintaining an inclusive and diverse community means increasing <em>housing affordability</em>, addressing <em>homelessness</em>, and supporting Santa Monica as a <em>learning community</em>.</p>"
     },
     {
       "topic": "Mobility",
-      "logo": "/assets/mobility.jpg",
+      "logo": "/assets/2015-2016/mobility.jpg",
       "blurb": "<p>With the incoming <em>Expo Line</em> and expansion of <em>Big Blue Bus</em> service, Santa Monica is poised to transform the car-centric culture that has gridlocked our region for decades.</p><p>How can we integrate multi-modal transportation, both here and across Los Angeles, with the <em>people</em>, to establish a new model of mobility for the future?</p>"
     },
     {
       "topic": "Civic Engagement",
-      "logo": "/assets/civic-engagement.jpg",
+      "logo": "/assets/2015-2016/civic-engagement.jpg",
       "blurb": "<p>The defining characteristic of Government 2.0 has to be <em>interaction</em>. The government of the future must embrace technology as a means of connecting with, and understanding the needs of, its people.</p><p>Santa Monica has an exuberant resident community and firm grounding in civic engagement. Now it's time to take that to the next level.</p>"
     }
   ]
