@@ -1,17 +1,72 @@
-[
-  {
-    "topic": "Community",
-    "logo": "/assets/community.jpg",
-    "blurb": "<p>Santa Monica is a diverse landscape of over 90,000 residents and hundreds of thousands more who come here for business and pleasure.</p><p>Maintaining an inclusive and diverse community means increasing <em>housing affordability</em>, addressing <em>homelessness</em>, and supporting Santa Monica as a <em>learning community</em>.</p>"
-  },
-  {
-    "topic": "Mobility",
-    "logo": "/assets/mobility.jpg",
-    "blurb": "<p>With the incoming <em>Expo Line</em> and expansion of <em>Big Blue Bus</em> service, Santa Monica is poised to transform the car-centric culture that has gridlocked our region for decades.</p><p>How can we integrate multi-modal transportation, both here and across Los Angeles, with the <em>people</em>, to establish a new model of mobility for the future?</p>"
-  },
-  {
-    "topic": "Civic Engagement",
-    "logo": "/assets/civic-engagement.jpg",
-    "blurb": "<p>The defining characteristic of Government 2.0 has to be <em>interaction</em>. The government of the future must embrace technology as a means of connecting with, and understanding the needs of, its people.</p><p>Santa Monica has an exuberant resident community and firm grounding in civic engagement. Now it's time to take that to the next level.</p>"
-  }
-]
+{
+    "2015-2016": [
+    {
+      "topic": "Community",
+      "logo": "/assets/2015-2016/community.jpg",
+      "blurb": "<p>Santa Monica is a diverse landscape of over 90,000 residents and hundreds of thousands more who come here for business and pleasure.</p><p>Maintaining an inclusive and diverse community means increasing <em>housing affordability</em>, addressing <em>homelessness</em>, and supporting Santa Monica as a <em>learning community</em>.</p>"
+    },
+    {
+      "topic": "Mobility",
+      "logo": "/assets/2015-2016/mobility.jpg",
+      "blurb": "<p>With the incoming <em>Expo Line</em> and expansion of <em>Big Blue Bus</em> service, Santa Monica is poised to transform the car-centric culture that has gridlocked our region for decades.</p><p>How can we integrate multi-modal transportation, both here and across Los Angeles, with the <em>people</em>, to establish a new model of mobility for the future?</p>"
+    },
+    {
+      "topic": "Civic Engagement",
+      "logo": "/assets/2015-2016/civic-engagement.jpg",
+      "blurb": "<p>The defining characteristic of Government 2.0 has to be <em>interaction</em>. The government of the future must embrace technology as a means of connecting with, and understanding the needs of, its people.</p><p>Santa Monica has an exuberant resident community and firm grounding in civic engagement. Now it's time to take that to the next level.</p>"
+    }
+  ],
+  "2017-2018":[
+    {
+      "topic": "Building Community",
+      "logo": "/assets/2017-2018/building-community.jpg",
+      "details": [{
+        "blurb": "<p>Community happens when a group of people come together to create a space, based on shared interests, in which they find mutual respect, a sense of belonging, and support. Lessons learned through recent disasters show that strong connections within a community network are critical to helping people respond to crisis situations, including those caused by natural and man-made disasters like a major earthquake or tsunami or other event impacting our collective health and safety.</p><p>As shown by the Wellbeing Index, connections between people living in Santa Monica are shockingly low (when compared to national averages). This social isolation is particularly acute among young adults. The issue is further amplified by increasing differences between “new” Santa Monicans and people who have been here for a while.</p>",
+        "question": "How might we use technology to encourage residents to connect with each other in a very real, genuine, neighbor-to-neighbor way?"
+      }]
+    },
+    {
+      "topic": "A Responsive Government",
+      "logo": "/assets/2015-2016/civic-engagement.jpg",
+      "details":[{
+        "blurb": "<p>Santa Monica residents are known for having strong opinions about the city they call home, but less than a third report feeling that they have influence over what happens in their city government.</p>",
+        "question": "How might we bridge this gap and use technology to show the majority of residents that they do indeed have a voice that is heard by their city government?"
+      }, {
+        "blurb": "<p>Now perhaps more than ever, trust and accountability in government are crucial to solving our social problems and advancing as a society.</p>",
+        "question": "What are ways to cultivate a trustworthy and participatory local government through equitable, transparent, and effective processes?"
+      }]
+    },
+    {
+      "topic": "Health",
+      "logo": "/assets/2017-2018/health.jpg",
+      "details": [{
+        "blurb": "<p>The ability to access traditional modes of health care is becoming increasing difficult. Furthermore, per the Wellbeing Index, stress levels are off the charts and rates of physical activity are far lower than one would expect. This means that we all need to take matters into our own hands and find ways to live healthier lives through our behavior and actions on a daily basis. The City of Santa Monica has an extensive network of public open space, public recreation amenities, and a broad range of high quality/affordable stress-busting classes.</p>",
+        "question": "How might we use technology to make it easier to empower residents to access these public resources to take charge of improving their health?"
+      }]
+    },
+    {
+      "topic": "Place and Planet",
+      "logo": "/assets/2017-2018/place-planet.jpg",
+      "details": [{
+        "blurb": "<p>Envisioning better Place & Planet outcomes include making it easier to get around town in an environmentally-friendly (read: car free) way. Santa Monica has made MAJOR progress in this area in recent years, including releasing real-time transit information as open data, adopting the TAP Card for use on our systems (thus integrating into a regional network), and working with Metro to successfully extend LA’s light rail network to our city.</p><p>Even with these accomplishments, many commuters ignore public transit options and pedestrian deaths (by vehicle) continue. Santa Monica wants to embrace a Vision Zero approach to making it easier for public transit and traditional modes of getting around to co-exist while striving for zero pedestrian deaths by vehicle.</p>",
+        "question": "How might we use technology to make this happen?"
+      }]
+    },
+    {
+      "topic": "Learning",
+      "logo": "/assets/2017-2018/learning.jpg",
+      "details":[{
+        "blurb": "<p>Well-informed citizens are crucial for the success of any city. Education has been linked to outcomes across the Wellbeing spectrum — high incomes, better health, longer lives, and lower rates of risk behavior. In Santa Monica, there are inequities in access to opportunities to learn, which has contributed to persistent disparity in educational outcomes for students tied to race/ethnicity. We also know that our adult residents lack easy ways to engage in personal development activities while balancing their busy lifestyles.</p>",
+        "question": "How might we champion lifelong education achievements and opportunities for continuous personal growth?"
+      }]
+    },
+    {
+      "topic": "Economic Opportunity",
+      "logo": "/assets/2017-2018/economic-opportunity.jpg",
+      "details": [{
+        "blurb": "<p>Reducing barriers to economic growth, particularly for small businesses, is one of Santa Monica’s preeminent goals. Local residents, in turn, need resources to help them build their lives here and opportunities to enjoy life in the city as much as those who come for a short visit.</p>",
+        "question": "How can we support community needs through a stable, vibrant and diverse local economy?"
+      }]
+    }
+  ]
+}

@@ -4,7 +4,9 @@
     <h2>{{ event.name }}</h2>
     <p>{{ event.description }}</p>
     <p><span>{{ event.date | date: '%b %d %Y' }}</span>
+    {% if event.start %}
     <span>{{ event.start }} to {{ event.end }}</span></p>
+    {% endif %}
     {% if event.location %}
     <p>
       <a href="{{ event.location.url }}" target="_blank">{{ event.location.name }}</a>

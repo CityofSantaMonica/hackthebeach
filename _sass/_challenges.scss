@@ -1,12 +1,17 @@
 .challenge {
-  text-align: center;  
-  
-  h2 {
+
+  h2, h3 {
     margin-top: 0;
   }
-  
-  img {
-    margin: 0 auto;
-    margin-bottom: .5em;
+
+  &.text-center {
+    img {
+      margin: 0 auto;
+      margin-bottom: .5em;
+    }
+  }
+
+  .media-left {
+    vertical-align: middle;
   }
 }
