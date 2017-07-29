@@ -6,12 +6,12 @@
 
 {% for challenge in site.data.challenges["2017-2018"] %}
 <hr />
-<div class="media challenge">
-  <div class="media-left">
+<div class="row challenge">
+  <div class="col-md-3">
+    <h3>{{ challenge.topic }}</h3>
     <img class="img-rounded media-object" src="{{ challenge.logo }}" alt="{{ challenge.topic }}" />
   </div>
-  <div class="media-body">
-    <h3>{{ challenge.topic }}</h3>
+  <div class="col-md-9">
     {% for detail in challenge.details %}
       {{ detail.blurb }}
       <p><strong>{{ detail.question }}</strong></p>
