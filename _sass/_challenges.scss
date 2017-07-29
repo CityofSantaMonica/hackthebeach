@@ -10,4 +10,12 @@
       margin-bottom: .5em;
     }
   }
+
+  div:first-of-type {
+    margin-bottom: 0.5em;
+
+    img {
+      max-width: 100%;
+    }
+  }
 }
