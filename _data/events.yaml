@@ -2,13 +2,13 @@
   date: 2017-08-23
   start: 6:00pm
   end: 9:00pm
-  description: Meet subject matter experts from each of the design challenge areas. Co-hosted by <a href="http://hackforla.nationbuilder.com/" target="_blank">Hack for LA</a> and <a href="https://pivotal.io" target="_blank">Pivotal</a>!
+  description: Meet subject matter experts from each of the design challenge areas. Co-hosted by <a href="http://hackforla.nationbuilder.com/" target="_blank">Hack for LA</a>!
   signup: https://hackthebeach-insideedge.eventbrite.com
   location:
-    name: Pivotal Santa Monica
-    url: https://pivotal.io/
-    address: 1333 2nd Street
-    map: https://www.google.com/maps/place/1333+2nd+St,+Santa+Monica,+CA+90401/@34.0157177,-118.4996616,17z/data=!3m1!4b1!4m5!3m4!1s0x80c2a4cff165ae37:0xb2e0f317bfeb9f0c!8m2!3d34.0157177!4d-118.4974729
+    name: Santa Monica Public Library
+    url: https://www.smpl.org
+    address: 601 Santa Monica Blvd
+    map: https://www.google.com/maps/place/Santa+Monica+Public+Library/@34.010813,-118.4922354,15z
 
 - name: "The Contest: Pitch Night"
   description: Every candidate who passes an initial screening will be given a lightning pitch opportunity at this event.<p>Date TBD in late September.</p>
