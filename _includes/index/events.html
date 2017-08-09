@@ -25,7 +25,7 @@
       <a href="{{ event.location.map }}" target="_blank">{{ event.location.address }}</a>
       {% endif %}
     </p>
-    {% else %}
+    {% elsif event.signup == false %}
     <p>Location TBD</p>
     {% endif %}
     {% if event.signup %}
