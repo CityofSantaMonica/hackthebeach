@@ -18,6 +18,10 @@ after_success:
 after_failure:
   - test $TRAVIS_PULL_REQUEST && ./.travis/pr_status error "Website failed to build"
 
+branches:
+  only:
+    - gh-pages
+    - /.*/
 env:
   global:
     - GITHUB_AUTH_USER=allejo
