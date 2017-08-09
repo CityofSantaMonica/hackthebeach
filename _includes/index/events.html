@@ -2,7 +2,7 @@
   {% for event in site.data.events %}
   <div class="col-md-4">
     <h2>{{ event.name }}</h2>
-    <p>{{ event.description }}</p>
+    {{ event.description | markdownify }}
     <p><span>{{ event.date | date: '%b %d %Y' }}</span>
     {% if event.start or event.end %}
     <span>
