@@ -18,4 +18,7 @@
   signup_text: APPLY NOW
 
 - name: "The Contest: Pitch Night"
-  description: Every candidate who passes an initial screening will be given a lightning pitch opportunity at this event.<p>Date TBD in late September.</p>
+  description: |
+    Every candidate who passes an initial screening will be given a lightning pitch opportunity at this event.
+    
+    Date TBD in late September.
