@@ -4,9 +4,17 @@
     <h2>{{ event.name }}</h2>
     <p>{{ event.description }}</p>
     <p><span>{{ event.date | date: '%b %d %Y' }}</span>
-    {% if event.start %}
-    <span>{{ event.start }} to {{ event.end }}</span></p>
+    {% if event.start or event.end %}
+    <span>
+      {{ event.start }}
+      {% if event.start and event.end %}
+      to {{ event.end }}
+      {% elsif event.end %}
+      {{ event.end }}
+      {% endif %}
+    </span>
     {% endif %}
+    </p>
     {% if event.location %}
     <p>
       {% if event.location.url and event.location.name %}
