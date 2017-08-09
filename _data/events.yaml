@@ -1,11 +1,10 @@
-- name: "Submission Deadline for The Contest"
+- name: "2017 Contest Entry Deadline"
   date: 2017-09-04
   end: 11:59pm
   description: Get your big idea in to us by September 4. Every application that passes an initial screening will be given a pitch opportunity at our September event. 
   location:  
     name: Submit your Idea
     url: https://go.citygro.ws/hack-the-beach-santa-monica-f35fbc93-4987-44ce-a190-7853f751c234/hack-the-beach-2017-contest-sign-up
-    address: Virtual
     
 - name: "The Contest: Inside Edge"
   date: 2017-08-23
