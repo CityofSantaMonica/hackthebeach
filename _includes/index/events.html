@@ -22,7 +22,9 @@
     {% endif %}
     {% if event.signup %}
     <p>
-      {% include templates/button.html text="{{ event.signup_text or REGISTER NOW }}" href=event.signup target="_blank" class="btn-default btn-sm" %}
+      {% assign text = event.signup_text %}
+      {% unless text %}{% assign text = "REGISTER NOW" %}{% endunless %}
+      {% include templates/button.html text=text href=event.signup target="_blank" class="btn-default btn-sm" %}
     </p>
     {% endif %}
   </div>
