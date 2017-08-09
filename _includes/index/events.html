@@ -9,16 +9,22 @@
     {% endif %}
     {% if event.location %}
     <p>
+      {% if event.location.url and event.location.name %}
       <a href="{{ event.location.url }}" target="_blank">{{ event.location.name }}</a>
+      {% endif %}
+      {% if event.location.map and event.location.address %}
       <br />
       <a href="{{ event.location.map }}" target="_blank">{{ event.location.address }}</a>
+      {% endif %}
     </p>
     {% else %}
     <p>Location TBD</p>
     {% endif %}
     {% if event.signup %}
     <p>
-      {% include templates/button.html text="REGISTER NOW" href=event.signup target="_blank" class="btn-default btn-sm" %}
+      {% assign text = event.signup_text %}
+      {% unless text %}{% assign text = "REGISTER NOW" %}{% endunless %}
+      {% include templates/button.html text=text href=event.signup target="_blank" class="btn-default btn-sm" %}
     </p>
     {% endif %}
   </div>
