@@ -18,14 +18,14 @@
   logo: /assets/cross-campus.png
   url: http://www.crosscamp.us/
 
-- name: Santa Monica Pier
-  logo: /assets/santa-monica-pier.png
-  url: http://santamonicapier.org/
-
-- name: Downtown Santa Monica
-  logo: /assets/downtown-sm.jpg
-  url: http://www.downtownsm.com/
-
 - name: HackerFund
   logo: /assets/hacker-fund.svg
   url: https://hacker.fund/
+
+- name: Hack for LA
+  logo: /assets/hack-for-la.jpg
+  url: http://www.hackforla.org/
+
+- name: Scale Los Angeles
+  logo: /assets/scale-Los-Angeles.png
+  url: http://scalela.com/
