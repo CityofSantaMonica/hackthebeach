@@ -1,6 +1,8 @@
 title: Hack the Beach - City of Santa Monica
 url: "http://www.hackthebeach.com"
 
+sponsorurl: "https://bit.ly/sponsor-htb"
+
 # Collections
 collections:
   - judges
