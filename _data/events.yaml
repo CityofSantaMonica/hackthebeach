@@ -1,12 +1,21 @@
-- name: "2017 Contest Entry Deadline"
-  date: 2017-09-04
-  end: 11:59pm
-  description: Get your big idea in to us by September 4. Every application that passes an initial screening will be given a pitch opportunity at our September event.
-  signup: https://go.citygro.ws/hack-the-beach-santa-monica-f35fbc93-4987-44ce-a190-7853f751c234/hack-the-beach-2017-contest-sign-up
-  signup_text: APPLY NOW
+- name: "2017 Contest Pitch Night"
+  date: 2017-09-21
+  start: 6:30pm
+  end: 9:00pm
+  description: Every candidate who passes an initial screening will be given a 1-minute lightning pitch opportunity at this event!
+  signup: https://www.eventbrite.com/e/hack-the-beach-pitch-night-tickets-37556878635
+  location:
+    name: The Water Garden
+    url: http://www.wg-la.com/
+    address: 1620 26th Street
+    map: https://www.google.com/maps/place/1620+26th+St,+Santa+Monica,+CA+90404/@34.0294373,-118.4728827,17z
+  
+- name: "The Contest: Finalist Night"
+  description: The finalists for this year's Contest will be revealed. Each finalists will be given the opportunity to provide a brief presentation about their project.
 
-- name: "The Contest: Pitch Night"
-  description: |
-    Every candidate who passes an initial screening will be given a lightning pitch opportunity at this event.
-
-    Date TBD in late September.
+    Date TBD in late October.
+    
+- name: "The Contest: Final Judging Night"
+  description: Each Finalist will give their final pitch directly to the judges and the rest of the community. Judges will deliberate to select a winner. Winner will be unveiled the following month at the State of the City Address.
+  
+    Date TBD in early December.
