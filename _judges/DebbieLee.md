@@ -1,7 +1,10 @@
 ---
-name: Debbie Lee
+fname: Debbie 
+lname: Lee
 company: City of Santa Monica
 role: Public Affairs and Communications Officer
+years:
+  - "2015-2016"
 ---
 
 City of Santa Monica Public Affairs and Communications Officer Debbie Lee oversees the city's robust communications. As an integral member of the senior management team, she serves as the city's chief spokesperson. She directs, manages and supervises the city's integrated communication strategy program, over various platforms including; video production programming, print publications, web management, online communication and social media activities; coordinates intergovernmental and neighborhood relations, legislative affairs, and communication strategies with Council, departments, external agencies and neighborhood organizations to promote transparency of city initiatives.

@@ -1,7 +1,11 @@
 ---
-name: Sonya Sepahban
+fname: Sonya
+lname: Sepahban
 company: General Dynamics
 role: Senior Vice President of Engineering, Development and Technology (retired)
+years:
+  - "2015-2016"
+  - "2017-2018"
 ---
 
 Sonya Sepahban has demonstrated a unique ability to combine deep expertise in technology and innovation with strong financial acumen, operational experience, and leadership skills to consistently deliver extraordinary results in the US and around the world. She is an engineer with proven track record of successful intrapreneurship in large and complex organizations. As an early seed investor and a Board member, she has combined her passion for technology and business innovation with her experience as an executive with significant P&L responsibility to drive high growth performance.
