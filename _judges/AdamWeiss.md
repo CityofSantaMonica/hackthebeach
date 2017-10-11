@@ -1,7 +1,11 @@
 ---
-name: Adam Weiss
+fname: Adam
+lname: Weiss
 company: Cornerstone OnDemand
 role: Vice President, Business Affairs & General Counsel
+years:
+  - "2015-2016"
+  - "2017-2018"
 ---
 
 Adam Weiss is Vice President of Business Affairs and General Counsel for Cornerstone OnDemand, In this role, Adam oversees all legal and business matters affecting the company and its international subsidiaries. Additionally, he leads the company’s legal, talent, and administration teams worldwide. Weiss helped guide the company through its successful IPO in 2011 and facilitated the launch of the [Cornerstone OnDemand Foundation](http://www.cornerstoneondemand.org/).

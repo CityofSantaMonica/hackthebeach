@@ -1,13 +1,15 @@
 <div class="rsorter">
-    {% for judge in site.judges %}
-        {% assign slugified = judge.name | replace: ' ', '-' | downcase %}
+    {% assign judges = site.judges | where_exp: "judge", "judge.years contains '2015-2016'" %}
+    {% for judge in judges %}
+        {% capture name %}{{ judge.fname }} {{ judge.lname }}{% endcapture %}
+        {% assign slugified = name | replace: ' ', '-' | downcase %}
         <div class="judge row sortable">
             <div class="headshot col-md-2">
-                <img src="/assets/judges/{{ slugified }}.jpg" alt="{{ judge.name }}'s headshot'">
+                <img src="/assets/{{ slugified }}.jpg" alt="{{ judge.name }}'s headshot'">
             </div>
 
             <div class="bio col-md-10 extendable-content" id="{{ slugified }}">
-                <h3 class="name">{{ judge.name }}</h3>
+                <h3 class="name">{{ name }}</h3>
                 <p class="role">
                     <em>
                         {{ judge.role }}
@@ -17,7 +19,7 @@
                 </p>
                 <article>{{ judge.content }}</article>
                 <div class="readless" data-target="#{{ slugified }}">
-                    <i class="fi fi-angles-up"></i>
+                    <i class="fi fi-angles-up" aria-hidden="true"></i>
                 </div>
                 <div class="readmore" data-target="#{{ slugified }}"></div>
             </div>

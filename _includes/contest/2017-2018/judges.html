@@ -1,0 +1,23 @@
+<div class="row">
+    {% assign judges = site.judges | where_exp: "judge", "judge.years contains '2017-2018'" | sort: 'fname' %}
+    {% for judge in judges %}
+        {% capture name %}{{ judge.fname }} {{ judge.lname }}{% endcapture %}
+        {% assign slugified = name | replace: ' ', '-' | downcase %}
+        <div class="judge col-sm-6 col-md-4">
+            <figure class="headshot mb2">
+                <img src="/assets/{{ slugified }}.jpg" alt="{{ name }}'s headshot'">
+            </figure>
+
+            <div class="bio text-center">
+                <h3 class="name">{{ name }}</h3>
+                <p class="role">
+                    <em>
+                        {{ judge.role }}
+                        <br>
+                        {{ judge.company }}
+                    </em>
+                </p>
+            </div>
+        </div>
+    {% endfor %}
+</div>

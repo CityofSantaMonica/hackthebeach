@@ -1,7 +1,10 @@
 ---
-name: Jory Wolf
+fname: Jory
+lname: Wolf
 company: City of Santa Monica
 role: CIO
+years:
+  - "2015-2016"
 ---
 
 Jory Wolf is Chief Information Officer for the City of Santa Monica. His responsibilities include planning and management of all automated information systems and services, including computing, networking, telecommunications, public safety radio, and geospatial and web based technologies. He has held progressively responsible positions at the City and has over thirty five years' experience in information technology.
