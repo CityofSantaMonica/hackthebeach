@@ -10,10 +10,8 @@
     address: 1620 26th Street
     map: https://www.google.com/maps/place/1620+26th+St,+Santa+Monica,+CA+90404/@34.0294373,-118.4728827,17z
   
-- name: "The Contest: Finalist Night"
-  description: The finalists for this year's Contest will be revealed. Each finalists will be given the opportunity to provide a brief presentation about their project.
-
-    Date TBD in late October.
+- name: "The Contest: Finalist"
+  description: The finalists for this year's Contest will be revealed.
     
 - name: "The Contest: Final Judging Night"
   description: Each Finalist will give their final pitch directly to the judges and the rest of the community. Judges will deliberate to select a winner. Winner will be unveiled the following month at the State of the City Address.
