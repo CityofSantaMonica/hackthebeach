@@ -1,18 +1,3 @@
-- name: "2017 Contest Pitch Night"
-  date: 2017-09-28
-  start: 6:30pm
-  end: 9:00pm
-  description: NEW DATE to accomodate Rosh Hashanah. Every candidate who passes an initial screening will be given a 1-minute lightning pitch opportunity at this event!
-  signup: https://www.eventbrite.com/e/hack-the-beach-pitch-night-tickets-37556878635
-  location:
-    name: The Water Garden
-    url: http://www.wg-la.com/
-    address: 1620 26th Street
-    map: https://www.google.com/maps/place/1620+26th+St,+Santa+Monica,+CA+90404/@34.0294373,-118.4728827,17z
-  
-- name: "The Contest: Finalist"
-  description: The finalists for this year's Contest will be revealed.
-    
 - name: "The Contest: Final Judging Night"
   description: Each Finalist will give their final pitch directly to the judges and the rest of the community. Judges will deliberate to select a winner. Winner will be unveiled the following month at the State of the City Address.
   
