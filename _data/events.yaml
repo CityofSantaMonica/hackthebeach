@@ -1,4 +1,11 @@
 - name: "The Contest: Final Judging Night"
-  description: Each Finalist will give their final pitch directly to the judges and the rest of the community. Judges will deliberate to select a winner. Winner will be unveiled the following month at the State of the City Address.
-  
-    Date TBD in early December.
+  date: 2017-12-13
+  start: 6:00pm
+  end: 8:30pm
+  description: Each Finalist will give their final pitch directly to the judges and the rest of the community. Judges will deliberate to select a winner.
+  signup: https://www.eventbrite.com/e/hack-the-beach-the-contest-final-judging-night-tickets-39906434219
+  location:
+    name: Cross Campus
+    url: http://www.crosscamp.us/site/
+    address: 929 Colorado Avenue
+    map: https://www.google.com/maps/place/929+Colorado+Ave,+Santa+Monica,+CA+90401/@34.0185225,-118.4873912,18z
