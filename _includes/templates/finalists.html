@@ -1,0 +1,38 @@
+<div class="row">
+    {% assign finalists = site.finalists | where: 'year', include.year | sort: 'name' %}
+    {% for finalist in finalists %}
+        <article class="col-md-6 col-lg-4">
+            <header>
+                {% assign imageName = finalist.path | split: '/' | last | replace: '.md', '.png' %}
+                <a href="{{ finalist.website }}">
+                    <img src="{{ '/assets/' | append: imageName | relative_url }}"
+                        alt="{{ finalist.name | escape }}'s logo'"
+                        class="img-responsive">
+                </a>
+
+                <p class="sr-only"><a href="{{ finalist.website }}">{{ finalist.name }}</a></p>
+            </header>
+
+            <div>
+                 {{ finalist.content }}
+            </div>
+
+            {% if finalist.social %}
+                <footer>
+                    <ul class="list-inline text-center">
+                        {% for social in finalist.social %}
+                            {% assign key = social[0] %}
+                            {% assign platform = site.data.social[key] %}
+                            <li>
+                                <a href="{{ social[1] }}" title="{{ platform.message }}" class="t4">
+                                    <i class="fi fi-social-{{ social[0] }}" aria-hidden="true"></i>
+                                    <span class="sr-only">{{ platform.message }}</span>
+                                </a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+            </footer>
+            {% endif %}
+        </article>
+    {% endfor %}
+</div>
