@@ -1,0 +1,15 @@
+facebook:
+  name: Facebook
+  message: Like us on Facebook
+
+twitter:
+  name: Twitter
+  message: Follow us on Twitter
+
+instagram:
+  name: Instagram
+  message: Follow us on Instagram
+
+gplus:
+  name: Google+
+  message: Add us to your circle on Google+
