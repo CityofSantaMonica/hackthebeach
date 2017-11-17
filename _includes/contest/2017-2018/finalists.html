@@ -4,7 +4,7 @@
             <header>
                 {% assign imageName = finalist.path | split: '/' | last | replace: '2017-', '' | replace: '.md', '.png' %}
                 <a href="{{ finalist.website }}">
-                    <img src="{{ '/assets/' | append: imageName | absolute_url }}"
+                    <img src="{{ '/assets/' | append: imageName | relative_url }}"
                         alt="{{ finalist.name | escape }}'s logo'"
                         class="img-responsive">
                 </a>
