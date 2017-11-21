@@ -1,9 +1,9 @@
 <div class="row">
   {% for challenge in site.data.challenges["2015-2016"] %}
-  <div class="col-md-4 challenge text-center">
-    <h2 class="text-center">{{ challenge.topic }}</h2>
-    <img class="img-responsive img-rounded" src="{{ challenge.logo }}" alt="{{ challenge.topic }}" />
-    {{ challenge.blurb }}
-  </div>
+    <div class="col-md-4 challenge text-center">
+      <h2 class="mt-0 text-center">{{ challenge.topic }}</h2>
+      <img class="img-fluid rounded mx-auto mb-3" src="{{ challenge.logo }}" alt="{{ challenge.topic }}" />
+      {{ challenge.blurb }}
+    </div>
   {% endfor %}
 </div>

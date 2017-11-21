@@ -1,15 +1,11 @@
-<div class="panel panel-default">
-  <div class="panel-heading" role="tab" id="heading{{ include.index }}">
-    <h2 class="panel-title">
-      <span class="fi fi-fw fi-question-circle"></span>&nbsp;
-      <a role="button" data-toggle="collapse" data-parent="#{{ include.parent }}" href="#collapse{{ include.index }}" aria-expanded="false" aria-controls="collapse{{ include.index }}">
-          {{ include.question }}
-      </a>
-    </h2>
+<div class="card mb-2">
+  <div class="card-header" role="tab" id="heading{{ include.index }}">
+    <span class="fi fi-fw fi-question-circle" aria-hidden="true"></span>
+    <a role="button" data-toggle="collapse" data-parent="#{{ include.parent }}" href="#collapse{{ include.index }}" aria-expanded="false" aria-controls="collapse{{ include.index }}">
+        {{ include.question }}
+    </a>
   </div>
-  <div id="collapse{{ include.index }}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading{{ include.index }}">
-    <div class="panel-body">
-        {{ include.answer }}
-    </div>
+  <div id="collapse{{ include.index }}" class="card-body collapse" role="tabpanel" aria-labelledby="heading{{ include.index }}">
+    {{ include.answer }}
   </div>
 </div>

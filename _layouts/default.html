@@ -21,7 +21,7 @@
     <script src="https://use.typekit.net/qza1fze.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <script src="https://use.fonticons.com/45cfc314.js"></script>
     <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
@@ -46,20 +46,24 @@
 
     {% include templates/section.html header="Talk About It" content="disqus.html" %}
 
-    <div class="container">
-      <hr>
-      <footer>
-        <p class="pull-left">&copy; City of Santa Monica 2017</p>
-        <p class="pull-right">
-          <a href="https://github.com/CityofSantaMonica/hackthebeach" target="_blank">
-          {% include templates/icon.html icon="code-fork" fixed=true %} Hosted with gh-pages
-          </a>
-        </p>
-      </footer>
-    </div>
+    <footer class="border border-bottom-0 border-left-0 border-right-0 py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+             &copy; City of Santa Monica 2017
+          </div>
+          <div class="col text-sm-right">
+            <a href="https://github.com/CityofSantaMonica/hackthebeach" target="_blank">
+              {% include templates/icon.html icon="code-fork" fixed=true %} Hosted with gh-pages
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
 
-    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
     <script src="{{ site.baseurl }}/js/main.js"></script>
     {% if page.js %}

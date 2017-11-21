@@ -4,7 +4,7 @@
         {% capture name %}{{ judge.fname }} {{ judge.lname }}{% endcapture %}
         {% assign slugified = name | replace: ' ', '-' | downcase %}
         <div class="judge col-sm-6 col-md-4">
-            <figure class="headshot mb2">
+            <figure class="headshot mb-2">
                 <img src="/assets/{{ slugified }}.jpg" alt="{{ name }}'s headshot'">
             </figure>
 

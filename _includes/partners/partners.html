@@ -1,4 +1,4 @@
-<div class="row partners">
+<div class="row align-items-center text-center partners">
   {% for partner in site.data.partners limit:2 %}
   <div class="col-sm-6 partner">
     {% assign logo = partner.logo %}
@@ -6,7 +6,7 @@
       {% assign logo = logo | prepend: site.baseurl %}
     {% endif %}
     <a href="{{ partner.url }}" target="_blank">
-      <img class="" alt="{{ partner.name }}" src="{{ logo }}" />
+      <img alt="{{ partner.name }}" src="{{ logo }}" />
     </a>
   </div>
   {% endfor %}
@@ -14,15 +14,15 @@
 
 <hr>
 
-<div class="row partners">
+<div class="row align-items-center text-center partners">
   {% for partner in site.data.partners offset:2 %}
-  <div class="col-sm-4 partner">
+  <div class="col-sm-6 col-md-4 my-3 partner">
     {% assign logo = partner.logo %}
     {% if logo | split: '' | first == "/" %}
       {% assign logo = logo | prepend: site.baseurl %}
     {% endif %}
     <a href="{{ partner.url }}" target="_blank">
-      <img class="" alt="{{ partner.name }}" src="{{ logo }}" />
+      <img alt="{{ partner.name }}" src="{{ logo }}" />
     </a>
   </div>
   {% endfor %}

@@ -1,12 +1,12 @@
 <div class="row team rsorter">
   {% for member in site.data.team %}
-  <div class="col-sm-4 col-md-3 member sortable">
+  <div class="col-sm-4 col-md-3 member text-center sortable">
     <h3><a href="{{ member.url }}" target="_blank">{{ member.name }}</a></h3>
     {% assign logo = member.logo %}
     {% if logo | split: '' | first == "/" %}
       {% assign logo = logo | prepend: site.baseurl %}
     {% endif %}
-    <img class="img-circle img-responsive" alt="{{ member.name }} headshot" src="{{ logo }}" />
+    <img class="rounded-circle img-fluid mb-2" alt="{{ member.name }} headshot" src="{{ logo }}" />
     <p>
       <em>
         {{ member.title }}
